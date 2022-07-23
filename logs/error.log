@@ -1,0 +1,110 @@
+[2022-07-23T10:48:07.710Z] error: statusCode: 404; statusText: Not Found; stacks: NotFoundError: Not Found
+    at notFound (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\dist\index.js:301:19)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:328:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:328:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:286:9;
+[2022-07-23T10:48:27.691Z] error: statusCode: 404; statusText: Not Found; stacks: NotFoundError: Not Found
+    at notFound (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\dist\index.js:301:19)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:328:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:328:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:286:9;
+[2022-07-23T10:49:15.279Z] error: statusCode: 404; statusText: Not Found; stacks: NotFoundError: Not Found
+    at notFound (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\dist\index.js:301:19)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:328:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:328:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:286:9;
+[2022-07-23T10:51:19.034Z] error: statusCode: 404; statusText: Not Found; stacks: NotFoundError: Not Found
+    at notFound (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\dist\index.js:301:19)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:328:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:328:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:286:9;
+[2022-07-23T10:51:22.564Z] error: statusCode: 404; statusText: Not Found; stacks: NotFoundError: Not Found
+    at notFound (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\dist\index.js:301:19)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:328:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:328:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:286:9;
+[2022-07-23T10:53:47.955Z] error: statusCode: 404; statusText: Not Found; stacks: NotFoundError: Not Found
+    at notFound (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\errorHandler.ts:7:22)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:328:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:328:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:286:9;
+[2022-07-23T10:54:25.549Z] error: statusCode: 404; statusText: Not Found; stacks: NotFoundError: Not Found
+    at notFound (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\errorHandler.ts:7:22)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:328:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:328:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:286:9;
+[2022-07-23T10:54:28.748Z] error: statusCode: 404; statusText: Not Found; stacks: NotFoundError: Not Found
+    at notFound (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\errorHandler.ts:7:22)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:328:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:328:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:286:9;
+[2022-07-23T10:55:47.518Z] error: statusCode: 404; statusText: Not Found; stacks: NotFoundError: Not Found
+    at notFound (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\errorHandler.ts:7:22)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:328:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:328:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:286:9;
+[2022-07-23T10:55:54.553Z] error: statusCode: 404; statusText: Not Found; stacks: NotFoundError: Not Found
+    at notFound (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\errorHandler.ts:7:22)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:328:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:280:10)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:646:15
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:265:14)
+    at Function.handle (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:47:12);

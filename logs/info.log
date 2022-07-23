@@ -1,0 +1,150 @@
+[2022-07-23T10:42:56.354Z] info: connected to port 3000
+[2022-07-23T10:42:57.334Z] info: MongoDb connected
+[2022-07-23T10:44:49.168Z] info: connected to port 3000
+[2022-07-23T10:44:49.220Z] info: MongoDb connected
+[2022-07-23T10:46:41.448Z] info: connected to port 3000
+[2022-07-23T10:46:41.530Z] info: MongoDb connected
+[2022-07-23T10:46:52.446Z] info: connected to port 3000
+[2022-07-23T10:46:52.510Z] info: MongoDb connected
+[2022-07-23T10:48:07.710Z] error: statusCode: 404; statusText: Not Found; stacks: NotFoundError: Not Found
+    at notFound (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\dist\index.js:301:19)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:328:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:328:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:286:9;
+[2022-07-23T10:48:07.719Z] info: GET / - statusCode: 404 - response-size: 50 - response-time: 10.656 ms
+[2022-07-23T10:48:27.691Z] error: statusCode: 404; statusText: Not Found; stacks: NotFoundError: Not Found
+    at notFound (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\dist\index.js:301:19)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:328:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:328:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:286:9;
+[2022-07-23T10:48:27.694Z] info: GET /api/v1 - statusCode: 404 - response-size: 50 - response-time: 2.427 ms
+[2022-07-23T10:49:15.279Z] error: statusCode: 404; statusText: Not Found; stacks: NotFoundError: Not Found
+    at notFound (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\dist\index.js:301:19)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:328:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:328:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:286:9;
+[2022-07-23T10:49:15.280Z] info: GET /api/v1/ - statusCode: 404 - response-size: 50 - response-time: 1.301 ms
+[2022-07-23T10:51:02.438Z] info: connected to port 3000
+[2022-07-23T10:51:02.499Z] info: MongoDb connected
+[2022-07-23T10:51:19.034Z] error: statusCode: 404; statusText: Not Found; stacks: NotFoundError: Not Found
+    at notFound (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\dist\index.js:301:19)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:328:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:328:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:286:9;
+[2022-07-23T10:51:19.048Z] info: GET / - statusCode: 404 - response-size: 50 - response-time: 11.247 ms
+[2022-07-23T10:51:22.564Z] error: statusCode: 404; statusText: Not Found; stacks: NotFoundError: Not Found
+    at notFound (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\dist\index.js:301:19)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:328:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:328:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:286:9;
+[2022-07-23T10:51:22.565Z] info: GET / - statusCode: 404 - response-size: 50 - response-time: 1.449 ms
+[2022-07-23T10:52:59.932Z] info: connected to port 3000
+[2022-07-23T10:53:00.005Z] info: MongoDb connected
+[2022-07-23T10:53:47.955Z] error: statusCode: 404; statusText: Not Found; stacks: NotFoundError: Not Found
+    at notFound (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\errorHandler.ts:7:22)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:328:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:328:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:286:9;
+[2022-07-23T10:53:47.966Z] info: GET / - statusCode: 404 - response-size: 50 - response-time: 21.682 ms
+[2022-07-23T10:54:22.961Z] info: connected to port 3000
+[2022-07-23T10:54:22.995Z] info: MongoDb connected
+[2022-07-23T10:54:25.549Z] error: statusCode: 404; statusText: Not Found; stacks: NotFoundError: Not Found
+    at notFound (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\errorHandler.ts:7:22)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:328:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:328:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:286:9;
+[2022-07-23T10:54:25.556Z] info: GET /test - statusCode: 404 - response-size: 50 - response-time: 15.925 ms
+[2022-07-23T10:54:28.748Z] error: statusCode: 404; statusText: Not Found; stacks: NotFoundError: Not Found
+    at notFound (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\errorHandler.ts:7:22)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:328:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:328:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:286:9;
+[2022-07-23T10:54:28.750Z] info: GET /test/ - statusCode: 404 - response-size: 50 - response-time: 2.697 ms
+[2022-07-23T10:55:20.406Z] info: connected to port 3000
+[2022-07-23T10:55:20.441Z] info: MongoDb connected
+[2022-07-23T10:55:24.449Z] info: GET /api/v1 - statusCode: 200 - response-size: 23 - response-time: 6.792 ms
+[2022-07-23T10:55:47.518Z] error: statusCode: 404; statusText: Not Found; stacks: NotFoundError: Not Found
+    at notFound (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\errorHandler.ts:7:22)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:328:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:328:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:286:9;
+[2022-07-23T10:55:47.520Z] info: GET /test - statusCode: 404 - response-size: 50 - response-time: 10.999 ms
+[2022-07-23T10:55:54.553Z] error: statusCode: 404; statusText: Not Found; stacks: NotFoundError: Not Found
+    at notFound (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\errorHandler.ts:7:22)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:328:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:280:10)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:646:15
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:265:14)
+    at Function.handle (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:47:12);
+[2022-07-23T10:55:54.554Z] info: GET /api/v1/test - statusCode: 404 - response-size: 50 - response-time: 2.071 ms
+[2022-07-23T10:56:31.464Z] info: connected to port 3000
+[2022-07-23T10:56:31.513Z] info: MongoDb connected
+[2022-07-23T10:56:37.301Z] info: GET /api/v1/ - statusCode: 200 - response-size: 23 - response-time: 7.730 ms
+[2022-07-23T10:57:45.585Z] info: connected to port 3000
+[2022-07-23T10:57:45.648Z] info: MongoDb connected
+[2022-07-23T10:57:56.374Z] info: GET /api/v1/user - statusCode: 200 - response-size: 2 - response-time: 101.473 ms
+[2022-07-23T10:59:37.102Z] info: connected to port 3000
+[2022-07-23T10:59:37.183Z] info: MongoDb connected
+[2022-07-23T11:01:27.150Z] info: connected to port 3000
+[2022-07-23T11:01:27.206Z] info: MongoDb connected
+[2022-07-23T11:03:25.996Z] info: connected to port 3000
+[2022-07-23T11:03:26.033Z] info: MongoDb connected
+[2022-07-23T11:03:36.519Z] info: GET /api/v1/ - statusCode: 200 - response-size: 78 - response-time: 17.200 ms
