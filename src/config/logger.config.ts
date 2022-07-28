@@ -5,7 +5,9 @@ const logger = createLogger({
   format: format.combine(
     format.simple(),
     format.timestamp(),
-    format.printf((info: any) => `[${info.timestamp}] ${info.level}: ${info.message}`)
+    format.printf(
+      (info: any) => `[${info.timestamp}] ${info.level}: ${info.message}`
+    )
   ),
   defaultMeta: { service: "user-service" },
   transports: [

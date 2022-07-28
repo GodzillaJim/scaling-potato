@@ -1,3 +1,8 @@
+export enum Role {
+  END_USER,
+  ADMIN,
+  SUPERADMIN,
+}
 export interface IUser {
   email: string;
   firstName: string;
@@ -12,8 +17,9 @@ export interface IUser {
   roles: Role[];
 }
 
-export enum Role {
-  USER,
-  ADMIN,
-  SUPERADMIN,
+export interface IContactForm {
+  email: string;
+  name: string;
+  subject: string;
+  message: string;
 }

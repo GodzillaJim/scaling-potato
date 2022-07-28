@@ -148,3 +148,593 @@
 [2022-07-23T11:03:25.996Z] info: connected to port 3000
 [2022-07-23T11:03:26.033Z] info: MongoDb connected
 [2022-07-23T11:03:36.519Z] info: GET /api/v1/ - statusCode: 200 - response-size: 78 - response-time: 17.200 ms
+[2022-07-25T10:45:22.170Z] info: connected to port 3000
+[2022-07-25T10:46:07.415Z] info: connected to port 3000
+[2022-07-25T10:46:37.421Z] error: connect ECONNREFUSED 127.0.0.1:27017
+[2022-07-25T10:47:58.804Z] error: statusCode: 404; statusText: Not Found; stacks: NotFoundError: Not Found
+    at notFound (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\errorHandler.ts:7:22)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:328:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:328:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:286:9;
+[2022-07-25T10:47:58.812Z] info: GET / - statusCode: 404 - response-size: 50 - response-time: 15.146 ms
+[2022-07-25T10:49:48.566Z] info: connected to port 3000
+[2022-07-25T10:50:18.573Z] error: connect ECONNREFUSED 127.0.0.1:27017
+[2022-07-25T10:52:38.468Z] info: connected to port 3000
+[2022-07-25T10:53:08.492Z] error: connect ECONNREFUSED 127.0.0.1:27017
+[2022-07-25T10:53:16.700Z] info: GET /api/v1/guest/contact - statusCode: 200 - response-size: 43 - response-time: 12.508 ms
+[2022-07-25T10:53:31.682Z] info: [object Object]
+[2022-07-25T10:54:53.875Z] info: POST /api/v1/guest/contact - statusCode:  - response-size:  - response-time:  ms
+[2022-07-25T10:55:07.957Z] info: [object Object]
+[2022-07-25T10:56:17.045Z] info: connected to port 3000
+[2022-07-25T10:56:40.994Z] info: Request Body
+[2022-07-25T10:56:40.996Z] info: [object Object]
+[2022-07-25T10:56:47.047Z] error: connect ECONNREFUSED 127.0.0.1:27017
+[2022-07-25T10:56:51.950Z] info: POST /api/v1/guest/contact - statusCode:  - response-size:  - response-time:  ms
+[2022-07-25T10:58:13.878Z] info: connected to port 3000
+[2022-07-25T10:58:43.878Z] error: connect ECONNREFUSED 127.0.0.1:27017
+[2022-07-25T10:59:53.371Z] info: Request Body
+[2022-07-25T10:59:53.373Z] info: [object Object]
+[2022-07-25T11:00:06.692Z] info: POST /api/v1/guest/contact - statusCode:  - response-size:  - response-time:  ms
+[2022-07-25T11:03:28.794Z] info: connected to port 3000
+[2022-07-25T11:03:28.855Z] info: MongoDb connected
+[2022-07-25T11:03:35.813Z] info: Request Body
+[2022-07-25T11:03:35.815Z] info: [object Object]
+[2022-07-25T11:06:03.794Z] info: connected to port 3000
+[2022-07-25T11:06:03.975Z] info: MongoDb connected
+[2022-07-25T11:06:06.346Z] info: Request Body
+[2022-07-25T11:06:06.348Z] info: [object Object]
+[2022-07-25T11:08:30.029Z] info: connected to port 3000
+[2022-07-25T11:08:30.072Z] info: MongoDb connected
+[2022-07-25T11:08:55.523Z] info: POST /api/v1/guest/contact - statusCode: 200 - response-size: 43 - response-time: 40.558 ms
+[2022-07-25T11:10:17.482Z] info: 
+[2022-07-25T11:10:20.898Z] info: connected to port 3000
+[2022-07-25T11:10:20.937Z] info: MongoDb connected
+[2022-07-25T11:10:54.556Z] info: Validate Input
+[2022-07-25T11:10:58.260Z] info: connected to port 3000
+[2022-07-25T11:10:58.300Z] info: MongoDb connected
+[2022-07-25T11:11:04.246Z] info: Request Body
+[2022-07-25T11:11:04.256Z] error: statusCode: 404; statusText: Not Found; stacks: NotFoundError: Not Found
+    at notFound (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\errorHandler.ts:7:22)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:328:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:466:21);
+[2022-07-25T11:11:04.264Z] info: POST /api/v1/guest/contact - statusCode: 404 - response-size: 50 - response-time: 37.473 ms
+[2022-07-25T11:11:11.672Z] info: Request Body
+[2022-07-25T11:11:11.674Z] error: statusCode: 404; statusText: Not Found; stacks: NotFoundError: Not Found
+    at notFound (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\errorHandler.ts:7:22)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:328:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:466:21);
+[2022-07-25T11:11:11.675Z] info: POST /api/v1/guest/contact - statusCode: 404 - response-size: 50 - response-time: 4.706 ms
+[2022-07-25T11:12:36.329Z] info: Validate Input
+[2022-07-25T11:12:41.228Z] info: connected to port 3000
+[2022-07-25T11:12:41.282Z] info: MongoDb connected
+[2022-07-25T11:12:58.387Z] info: Request Body
+[2022-07-25T11:12:58.398Z] info: POST /api/v1/guest/contact - statusCode: 200 - response-size: 43 - response-time: 37.354 ms
+[2022-07-25T11:14:28.557Z] info: Validate Input
+[2022-07-25T11:14:31.763Z] info: connected to port 3000
+[2022-07-25T11:14:31.804Z] info: MongoDb connected
+[2022-07-25T11:15:10.170Z] info: POST /api/v1/guest/contact - statusCode: 200 - response-size: 43 - response-time: 51.887 ms
+[2022-07-25T11:16:48.689Z] info: Validate Input
+[2022-07-25T11:16:51.760Z] info: connected to port 3000
+[2022-07-25T11:16:51.865Z] info: MongoDb connected
+[2022-07-25T11:17:51.210Z] info: Validate Input
+[2022-07-25T11:17:54.784Z] info: connected to port 3000
+[2022-07-25T11:17:54.823Z] info: MongoDb connected
+[2022-07-25T11:17:58.614Z] info: POST /api/v1/guest/contact - statusCode: 200 - response-size: 43 - response-time: 50.111 ms
+[2022-07-25T11:19:05.439Z] info: connected to port 3000
+[2022-07-25T11:19:05.477Z] info: MongoDb connected
+[2022-07-25T11:19:15.442Z] info: POST /api/v1/guest/contact - statusCode: 200 - response-size: 43 - response-time: 32.694 ms
+[2022-07-25T11:20:23.071Z] info: connected to port 3000
+[2022-07-25T11:20:23.138Z] info: MongoDb connected
+[2022-07-25T11:20:28.587Z] info: POST /api/v1/guest/contact - statusCode: 200 - response-size: 43 - response-time: 30.497 ms
+[2022-07-25T11:21:44.127Z] info: connected to port 3000
+[2022-07-25T11:21:44.165Z] info: MongoDb connected
+[2022-07-25T11:21:46.687Z] info: POST /api/v1/guest/contact - statusCode: 200 - response-size: 43 - response-time: 32.345 ms
+[2022-07-25T11:24:37.295Z] info: connected to port 3000
+[2022-07-25T11:24:37.332Z] info: MongoDb connected
+[2022-07-25T11:25:18.829Z] info: connected to port 3000
+[2022-07-25T11:25:18.907Z] info: MongoDb connected
+[2022-07-25T11:28:46.710Z] info: connected to port 3000
+[2022-07-25T11:28:46.754Z] info: MongoDb connected
+[2022-07-25T11:30:00.907Z] info: POST /api/v1/guest/contact - statusCode: 200 - response-size: 43 - response-time: 63.562 ms
+[2022-07-25T11:44:18.165Z] info: POST /api/v1/guest/contact - statusCode: 200 - response-size: 43 - response-time: 35.731 ms
+[2022-07-25T11:47:48.724Z] info: connected to port 3000
+[2022-07-25T11:47:48.799Z] info: MongoDb connected
+[2022-07-25T11:48:35.304Z] info: MongoDb connected
+[2022-07-25T11:52:02.208Z] info: POST /api/v1/guest/contact - statusCode: 200 - response-size: 43 - response-time: 163.374 ms
+[2022-07-25T11:55:43.388Z] info: connected to port 3000
+[2022-07-25T11:55:43.450Z] info: MongoDb connected
+[2022-07-25T11:56:54.783Z] info: connected to port 3000
+[2022-07-25T11:56:54.839Z] info: MongoDb connected
+[2022-07-25T11:57:17.911Z] info: MongoDb connected
+[2022-07-25T11:57:34.982Z] info: POST /api/v1/guest/contact - statusCode: 200 - response-size: 43 - response-time: 50.366 ms
+[2022-07-25T11:57:58.434Z] info: POST /api/v1/guest/contact - statusCode: 200 - response-size: 43 - response-time: 3.419 ms
+[2022-07-25T12:03:48.224Z] info: MongoDb connected
+[2022-07-25T12:04:25.247Z] info: POST /api/v1/guest/contact - statusCode: 200 - response-size: 43 - response-time: 552.242 ms
+[2022-07-25T12:06:40.651Z] info: MongoDb connected
+[2022-07-25T12:06:43.371Z] info: POST /api/v1/guest/contact - statusCode: 200 - response-size: 43 - response-time: 528.407 ms
+[2022-07-25T12:17:03.038Z] info: MongoDb connected
+[2022-07-25T12:18:32.208Z] info: MongoDb connected
+[2022-07-25T12:28:30.604Z] info: POST /api/v1/guest/contact - statusCode: 200 - response-size: 43 - response-time: 342.883 ms
+[2022-07-25T12:33:00.559Z] info: MongoDb connected
+[2022-07-25T12:48:59.011Z] error: An instance of ContactForm has failed the validation:
+ - property email has failed the following constraints: isNotEmpty, isEmail 
+,An instance of ContactForm has failed the validation:
+ - property subject has failed the following constraints: isNotEmpty 
+,An instance of ContactForm has failed the validation:
+ - property message has failed the following constraints: isNotEmpty 
+
+[2022-07-25T12:48:59.050Z] info: POST /api/v1/guest/contact - statusCode: 400 - response-size: 191 - response-time: 431.368 ms
+[2022-07-25T12:54:18.670Z] info: MongoDb connected
+[2022-07-25T13:20:48.151Z] error: An instance of ContactForm has failed the validation:
+ - property message has failed the following constraints: isNotEmpty 
+
+[2022-07-25T13:20:48.183Z] info: POST /api/v1/guest/contact - statusCode: 400 - response-size: 68 - response-time: 232.865 ms
+[2022-07-25T13:21:11.046Z] info: POST /api/v1/guest/contact - statusCode: 200 - response-size: 43 - response-time: 5.903 ms
+[2022-07-25T13:21:18.416Z] error: An instance of ContactForm has failed the validation:
+ - property email has failed the following constraints: isEmail 
+
+[2022-07-25T13:21:18.418Z] info: POST /api/v1/guest/contact - statusCode: 400 - response-size: 60 - response-time: 3.173 ms
+[2022-07-25T13:21:27.041Z] info: POST /api/v1/guest/contact - statusCode: 200 - response-size: 43 - response-time: 1.432 ms
+[2022-07-25T13:24:39.423Z] info: MongoDb connected
+[2022-07-25T13:34:50.743Z] info: MongoDb connected
+[2022-07-25T13:36:04.864Z] info: MongoDb connected
+[2022-07-25T13:42:49.102Z] info: MongoDb connected
+[2022-07-25T13:44:49.948Z] info: MongoDb connected
+[2022-07-25T13:47:52.063Z] info: MongoDb connected
+[2022-07-25T13:50:24.763Z] info: MongoDb connected
+[2022-07-25T13:50:59.665Z] info: MongoDb connected
+[2022-07-25T13:53:32.823Z] error: statusCode: 404; statusText: Not Found; stacks: NotFoundError: Not Found
+    at notFound (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\errorHandler.ts:7:22)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:328:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:328:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:286:9;
+[2022-07-25T13:53:32.832Z] info: GET /api-docs - statusCode: 404 - response-size: 50 - response-time: 18.066 ms
+[2022-07-25T13:53:41.634Z] info: GET /api/v1/api-docs - statusCode: 301 - response-size: 197 - response-time: 5.492 ms
+[2022-07-25T13:53:41.710Z] info: GET /api/v1/api-docs/ - statusCode: 200 - response-size: 3103 - response-time: 3.986 ms
+[2022-07-25T13:53:56.413Z] error: statusCode: 404; statusText: Not Found; stacks: NotFoundError: Not Found
+    at notFound (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\errorHandler.ts:7:22)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:328:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:328:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:286:9;
+[2022-07-25T13:53:56.415Z] info: GET / - statusCode: 404 - response-size: 50 - response-time: 3.319 ms
+[2022-07-25T13:54:04.021Z] info: GET /api/v1/api-docs - statusCode: 301 - response-size: 197 - response-time: 2.677 ms
+[2022-07-25T13:54:04.035Z] info: GET /api/v1/api-docs/ - statusCode: 200 - response-size: 3103 - response-time: 2.107 ms
+[2022-07-25T13:54:04.475Z] info: GET /api/v1/api-docs/swagger-ui-bundle.js - statusCode: 200 - response-size: 1097238 - response-time: 6.679 ms
+[2022-07-25T13:54:04.518Z] info: GET /api/v1/api-docs/swagger-ui-init.js - statusCode: 200 - response-size: 1667 - response-time: 1.019 ms
+[2022-07-25T13:54:04.545Z] info: GET /api/v1/api-docs/swagger-ui.css - statusCode: 200 - response-size: 144210 - response-time: 90.529 ms
+[2022-07-25T13:54:04.552Z] info: GET /api/v1/api-docs/swagger-ui-standalone-preset.js - statusCode: 200 - response-size: 339612 - response-time: 34.128 ms
+[2022-07-25T13:54:05.499Z] info: GET /api/v1/api-docs/favicon-32x32.png - statusCode: 200 - response-size: 628 - response-time: 2.266 ms
+[2022-07-25T13:54:07.717Z] info: GET /api/v1/api-docs/favicon-32x32.png - statusCode: 304 - response-size:  - response-time: 30.489 ms
+[2022-07-25T14:00:39.971Z] info: MongoDb connected
+[2022-07-25T14:02:09.684Z] info: MongoDb connected
+[2022-07-25T14:02:49.479Z] info: MongoDb connected
+[2022-07-25T14:11:47.568Z] info: MongoDb connected
+[2022-07-25T14:11:55.456Z] info: GET /api/v1/api-docs - statusCode: 301 - response-size: 197 - response-time: 8.005 ms
+[2022-07-25T14:11:55.466Z] info: GET /api/v1/api-docs/ - statusCode: 200 - response-size: 3103 - response-time: 5.250 ms
+[2022-07-25T14:12:00.798Z] error: statusCode: 404; statusText: Not Found; stacks: NotFoundError: Not Found
+    at notFound (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\errorHandler.ts:7:22)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:328:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:328:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:286:9;
+[2022-07-25T14:12:00.800Z] info: GET /api-docs - statusCode: 404 - response-size: 50 - response-time: 10.055 ms
+[2022-07-25T14:12:07.444Z] info: GET /api/v1/api-docs/ - statusCode: 304 - response-size:  - response-time: 2.584 ms
+[2022-07-25T14:12:07.687Z] info: GET /api/v1/api-docs/swagger-ui-init.js - statusCode: 304 - response-size:  - response-time: 0.819 ms
+[2022-07-25T14:12:07.797Z] info: GET /api/v1/api-docs/swagger-ui-standalone-preset.js - statusCode: 304 - response-size:  - response-time: 17.070 ms
+[2022-07-25T14:12:07.873Z] info: GET /api/v1/api-docs/swagger-ui.css - statusCode: 304 - response-size:  - response-time: 91.762 ms
+[2022-07-25T14:12:08.047Z] info: GET /api/v1/api-docs/swagger-ui-bundle.js - statusCode: 304 - response-size:  - response-time: 263.680 ms
+[2022-07-25T14:12:08.778Z] info: GET /api/v1/api-docs/favicon-32x32.png - statusCode: 304 - response-size:  - response-time: 1.864 ms
+[2022-07-25T14:12:09.834Z] info: GET /api/v1/api-docs/favicon-32x32.png - statusCode: 304 - response-size:  - response-time: 1.104 ms
+[2022-07-25T14:13:21.386Z] info: MongoDb connected
+[2022-07-25T14:13:58.331Z] info: MongoDb connected
+[2022-07-25T14:14:28.338Z] error: statusCode: 404; statusText: Not Found; stacks: NotFoundError: Not Found
+    at notFound (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\errorHandler.ts:7:22)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:328:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:280:10)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:646:15
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:265:14)
+    at Function.handle (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:47:12);
+[2022-07-25T14:14:28.351Z] info: GET /api/v1/api-docs/ - statusCode: 404 - response-size: 50 - response-time: 17.684 ms
+[2022-07-25T14:14:30.928Z] error: statusCode: 404; statusText: Not Found; stacks: NotFoundError: Not Found
+    at notFound (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\errorHandler.ts:7:22)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:328:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:328:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:286:9;
+[2022-07-25T14:14:30.931Z] info: GET /favicon.ico - statusCode: 404 - response-size: 50 - response-time: 5.515 ms
+[2022-07-25T14:14:37.917Z] error: statusCode: 404; statusText: Not Found; stacks: NotFoundError: Not Found
+    at notFound (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\errorHandler.ts:7:22)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:328:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:328:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:286:9;
+[2022-07-25T14:14:37.919Z] info: GET /api-docs/ - statusCode: 404 - response-size: 50 - response-time: 3.700 ms
+[2022-07-25T14:22:54.721Z] info: MongoDb connected
+[2022-07-28T19:11:53.255Z] info: MongoDb connected
+[2022-07-28T19:13:32.670Z] info: GET /api/v1/guest/contact - statusCode: 200 - response-size: 43 - response-time: 7.793 ms
+[2022-07-28T19:14:32.083Z] error: An instance of NewAccount has failed the validation:
+ - property firstName has failed the following constraints: isNotEmpty 
+,An instance of NewAccount has failed the validation:
+ - property lastName has failed the following constraints: isNotEmpty 
+,An instance of NewAccount has failed the validation:
+ - property email has failed the following constraints: isEmail, isNotEmpty 
+,An instance of NewAccount has failed the validation:
+ - property password has failed the following constraints: isNotEmpty 
+
+[2022-07-28T19:14:32.085Z] info: POST /api/v1/auth/register - statusCode: 400 - response-size: 240 - response-time: 182.197 ms
+[2022-07-28T19:15:28.545Z] error: statusCode: 200; statusText: This email is already registered.; stacks: BadRequestError: This email is already registered.
+    at Account.registerNewAccount (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\services\auth\accounts\index.ts:17:13)
+    at AuthController.registerNewUser (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\controllers\auth\index.ts:24:33)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\tools\validators\index.ts:49:16
+    at processTicksAndRejections (node:internal/process/task_queues:96:5);
+[2022-07-28T19:15:28.546Z] info: POST /api/v1/auth/register - statusCode: 200 - response-size: 74 - response-time: 84.916 ms
+[2022-07-28T19:17:12.829Z] info: MongoDb connected
+[2022-07-28T19:18:30.869Z] info: POST /api/v1/auth/register - statusCode: 200 - response-size: 49 - response-time: 147.188 ms
+[2022-07-28T19:21:45.409Z] info: MongoDb connected
+[2022-07-28T19:25:42.952Z] info: MongoDb connected
+[2022-07-28T19:26:29.566Z] info: MongoDb connected
+[2022-07-28T19:30:03.661Z] info: MongoDb connected
+[2022-07-28T19:30:18.346Z] info: POST /api/v1/auth/register - statusCode: 200 - response-size: 49 - response-time: 1113.590 ms
+[2022-07-28T19:32:48.149Z] info: MongoDb connected
+[2022-07-28T19:33:04.236Z] info: POST /api/v1/auth/login - statusCode: 200 - response-size: 229 - response-time: 109.985 ms
+[2022-07-28T19:33:14.208Z] info: POST /api/v1/auth/login - statusCode: 200 - response-size: 229 - response-time: 40.271 ms
+[2022-07-28T19:33:22.521Z] error: statusCode: 200; statusText: This person does not exist!; stacks: BadRequestError: This person does not exist!
+    at Account.loginUser (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\services\auth\accounts\index.ts:35:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async AuthController.loginUser (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\controllers\auth\index.ts:34:25);
+[2022-07-28T19:33:22.523Z] info: POST /api/v1/auth/login - statusCode: 200 - response-size: 68 - response-time: 22.437 ms
+[2022-07-28T19:33:28.916Z] error: statusCode: 200; statusText: This person does not exist!; stacks: BadRequestError: This person does not exist!
+    at Account.loginUser (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\services\auth\accounts\index.ts:35:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async AuthController.loginUser (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\controllers\auth\index.ts:34:25);
+[2022-07-28T19:33:28.919Z] info: POST /api/v1/auth/login - statusCode: 200 - response-size: 68 - response-time: 12.507 ms
+[2022-07-28T19:33:56.574Z] error: statusCode: 200; statusText: Wrong username or password!; stacks: BadRequestError: Wrong username or password!
+    at Account.loginUser (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\services\auth\accounts\index.ts:43:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async AuthController.loginUser (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\controllers\auth\index.ts:34:25);
+[2022-07-28T19:33:56.575Z] info: POST /api/v1/auth/login - statusCode: 200 - response-size: 68 - response-time: 12.532 ms
+[2022-07-28T19:33:59.472Z] error: statusCode: 200; statusText: Wrong username or password!; stacks: BadRequestError: Wrong username or password!
+    at Account.loginUser (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\services\auth\accounts\index.ts:43:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async AuthController.loginUser (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\controllers\auth\index.ts:34:25);
+[2022-07-28T19:33:59.473Z] info: POST /api/v1/auth/login - statusCode: 200 - response-size: 68 - response-time: 22.708 ms
+[2022-07-28T19:39:18.305Z] info: MongoDb connected
+[2022-07-28T19:40:00.536Z] info: MongoDb connected
+[2022-07-28T19:40:27.713Z] error: statusCode: 200; statusText: Wrong username or password!; stacks: BadRequestError: Wrong username or password!
+    at Account.loginUser (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\services\auth\accounts\index.ts:47:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async AuthController.loginUser (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\controllers\auth\index.ts:34:25);
+[2022-07-28T19:40:27.740Z] info: POST /api/v1/auth/login - statusCode: 200 - response-size: 68 - response-time: 153.760 ms
+[2022-07-28T19:40:52.337Z] error: statusCode: 200; statusText: This person does not exist!; stacks: BadRequestError: This person does not exist!
+    at Account.loginUser (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\services\auth\accounts\index.ts:35:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async AuthController.loginUser (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\controllers\auth\index.ts:34:25);
+[2022-07-28T19:40:52.340Z] info: POST /api/v1/auth/login - statusCode: 200 - response-size: 68 - response-time: 22.703 ms
+[2022-07-28T19:40:55.164Z] error: statusCode: 200; statusText: This person does not exist!; stacks: BadRequestError: This person does not exist!
+    at Account.loginUser (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\services\auth\accounts\index.ts:35:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async AuthController.loginUser (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\controllers\auth\index.ts:34:25);
+[2022-07-28T19:40:55.166Z] info: POST /api/v1/auth/login - statusCode: 200 - response-size: 68 - response-time: 11.509 ms
+[2022-07-28T19:41:11.061Z] info: POST /api/v1/auth/login - statusCode: 200 - response-size: 229 - response-time: 20.929 ms
+[2022-07-28T19:41:13.564Z] info: POST /api/v1/auth/login - statusCode: 200 - response-size: 229 - response-time: 42.044 ms
+[2022-07-28T19:44:05.145Z] info: MongoDb connected
+[2022-07-28T19:44:56.953Z] info: MongoDb connected
+[2022-07-28T19:47:02.636Z] info: MongoDb connected
+[2022-07-28T19:47:07.403Z] info: POST /api/v1/auth/login - statusCode: 200 - response-size: 229 - response-time: 61.438 ms
+[2022-07-28T19:47:13.115Z] error: statusCode: 400; statusText: This person does not exist!; stacks: BadRequestError: This person does not exist!
+    at Account.loginUser (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\services\auth\accounts\index.ts:35:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async AuthController.loginUser (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\controllers\auth\index.ts:33:25);
+[2022-07-28T19:47:13.117Z] info: POST /api/v1/auth/login - statusCode: 400 - response-size: 68 - response-time: 22.490 ms
+[2022-07-28T19:47:24.649Z] error: statusCode: 400; statusText: Wrong username or password!; stacks: BadRequestError: Wrong username or password!
+    at Account.loginUser (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\services\auth\accounts\index.ts:47:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async AuthController.loginUser (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\controllers\auth\index.ts:33:25);
+[2022-07-28T19:47:24.650Z] info: POST /api/v1/auth/login - statusCode: 400 - response-size: 68 - response-time: 20.080 ms
+[2022-07-28T19:49:43.540Z] info: MongoDb connected
+[2022-07-28T19:50:20.414Z] info: MongoDb connected
+[2022-07-28T19:52:20.944Z] info: MongoDb connected
+[2022-07-28T19:53:17.378Z] info: MongoDb connected
+[2022-07-28T19:54:38.315Z] info: MongoDb connected
+[2022-07-28T19:56:23.028Z] info: MongoDb connected
+[2022-07-28T19:59:08.853Z] info: MongoDb connected
+[2022-07-28T19:59:54.579Z] info: MongoDb connected
+[2022-07-28T20:01:59.635Z] info: MongoDb connected
+[2022-07-28T20:02:55.951Z] info: MongoDb connected
+[2022-07-28T20:04:13.164Z] info: MongoDb connected
+[2022-07-28T20:06:07.483Z] info: MongoDb connected
+[2022-07-28T20:07:04.688Z] info: MongoDb connected
+[2022-07-28T20:08:41.493Z] info: MongoDb connected
+[2022-07-28T20:10:54.178Z] info: MongoDb connected
+[2022-07-28T20:12:07.387Z] info: MongoDb connected
+[2022-07-28T20:12:54.048Z] info: MongoDb connected
+[2022-07-28T20:13:40.379Z] error: statusCode: 401; statusText: Please provide a token on header field Authorization; stacks: UnauthorizedError: Please provide a token on header field Authorization
+    at isAuthenticated (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:21:23)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:216:5
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:136:5;
+[2022-07-28T20:13:40.387Z] info: GET /api/v1/user - statusCode: 401 - response-size: 93 - response-time: 17.202 ms
+[2022-07-28T20:13:58.576Z] error: statusCode: 400; statusText: Wrong username or password!; stacks: BadRequestError: Wrong username or password!
+    at Account.loginUser (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\services\auth\accounts\index.ts:47:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async AuthController.loginUser (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\controllers\auth\index.ts:33:25);
+[2022-07-28T20:13:58.578Z] info: POST /api/v1/auth/login - statusCode: 400 - response-size: 68 - response-time: 57.691 ms
+[2022-07-28T20:14:01.833Z] error: statusCode: 400; statusText: Wrong username or password!; stacks: BadRequestError: Wrong username or password!
+    at Account.loginUser (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\services\auth\accounts\index.ts:47:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async AuthController.loginUser (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\controllers\auth\index.ts:33:25);
+[2022-07-28T20:14:01.835Z] info: POST /api/v1/auth/login - statusCode: 400 - response-size: 68 - response-time: 30.736 ms
+[2022-07-28T20:14:08.446Z] info: POST /api/v1/auth/login - statusCode: 200 - response-size: 229 - response-time: 26.119 ms
+[2022-07-28T20:14:11.053Z] info: POST /api/v1/auth/login - statusCode: 200 - response-size: 229 - response-time: 56.371 ms
+[2022-07-28T20:14:44.571Z] error: statusCode: 200; statusText: Cannot read property 'authService' of undefined; stacks: TypeError: Cannot read property 'authService' of undefined
+    at isAuthenticated (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:27:33)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:216:5
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:136:5;
+[2022-07-28T20:14:44.573Z] info: GET /api/v1/user - statusCode: 200 - response-size: 88 - response-time: 26.648 ms
+[2022-07-28T20:14:47.197Z] error: statusCode: 200; statusText: Cannot read property 'authService' of undefined; stacks: TypeError: Cannot read property 'authService' of undefined
+    at isAuthenticated (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:27:33)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:216:5
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:136:5;
+[2022-07-28T20:14:47.199Z] info: GET /api/v1/user - statusCode: 200 - response-size: 88 - response-time: 3.250 ms
+[2022-07-28T20:16:02.844Z] error: statusCode: 200; statusText: Cannot read property 'authService' of undefined; stacks: TypeError: Cannot read property 'authService' of undefined
+    at isAuthenticated (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:27:33)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:216:5
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:136:5;
+[2022-07-28T20:16:02.845Z] info: GET /api/v1/user - statusCode: 200 - response-size: 88 - response-time: 2.471 ms
+[2022-07-28T20:18:03.926Z] info: MongoDb connected
+[2022-07-28T20:20:33.159Z] info: MongoDb connected
+[2022-07-28T20:22:39.864Z] info: MongoDb connected
+[2022-07-28T20:23:59.875Z] error: statusCode: 200; statusText: Cannot read property 'authService' of undefined; stacks: TypeError: Cannot read property 'authService' of undefined
+    at isAuthenticated (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:27:28)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:216:5
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:136:5;
+[2022-07-28T20:23:59.885Z] info: GET /api/v1/user - statusCode: 200 - response-size: 88 - response-time: 22.708 ms
+[2022-07-28T20:27:01.726Z] info: MongoDb connected
+[2022-07-28T20:27:25.496Z] info: GET /api/v1/user - statusCode: 200 - response-size: 1505 - response-time: 21.525 ms
+[2022-07-28T20:29:28.299Z] info: MongoDb connected
+[2022-07-28T20:29:34.234Z] error: statusCode: 200; statusText: Cannot read property 'authService' of undefined; stacks: TypeError: Cannot read property 'authService' of undefined
+    at isAuthenticated (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:27:28)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:216:5
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:136:5;
+[2022-07-28T20:29:34.244Z] info: GET /api/v1/user - statusCode: 200 - response-size: 88 - response-time: 23.657 ms
+[2022-07-28T20:31:39.638Z] info: MongoDb connected
+[2022-07-28T20:31:46.769Z] info: GET /api/v1/user - statusCode: 200 - response-size: 1505 - response-time: 27.499 ms
+[2022-07-28T20:33:02.377Z] info: MongoDb connected
+[2022-07-28T20:33:57.814Z] info: MongoDb connected
+[2022-07-28T20:34:04.041Z] error: statusCode: 401; statusText: Your session has expired!; stacks: UnauthorizedError: Your session has expired!
+    at isAuthenticated (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:30:23)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:216:5
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:136:5;
+[2022-07-28T20:34:04.048Z] info: GET /api/v1/user - statusCode: 401 - response-size: 66 - response-time: 43.034 ms
+[2022-07-28T20:34:06.744Z] error: statusCode: 401; statusText: Your session has expired!; stacks: UnauthorizedError: Your session has expired!
+    at isAuthenticated (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:30:23)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:216:5
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:136:5;
+[2022-07-28T20:34:06.746Z] info: GET /api/v1/user - statusCode: 401 - response-size: 66 - response-time: 21.847 ms
+[2022-07-28T20:34:06.913Z] info: POST /api/v1/auth/login - statusCode: 200 - response-size: 229 - response-time: 160.391 ms
+[2022-07-28T20:34:38.785Z] error: statusCode: 401; statusText: Your session has expired!; stacks: UnauthorizedError: Your session has expired!
+    at isAuthenticated (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:30:23)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:216:5
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:136:5;
+[2022-07-28T20:34:38.788Z] info: GET /api/v1/user - statusCode: 401 - response-size: 66 - response-time: 11.184 ms
+[2022-07-28T20:34:42.057Z] error: statusCode: 401; statusText: Your session has expired!; stacks: UnauthorizedError: Your session has expired!
+    at isAuthenticated (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:30:23)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:216:5
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:136:5;
+[2022-07-28T20:34:42.060Z] info: GET /api/v1/user - statusCode: 401 - response-size: 66 - response-time: 15.735 ms
+[2022-07-28T20:35:05.101Z] info: POST /api/v1/auth/login - statusCode: 200 - response-size: 229 - response-time: 25.128 ms
+[2022-07-28T20:35:08.192Z] info: POST /api/v1/auth/login - statusCode: 200 - response-size: 229 - response-time: 23.752 ms
+[2022-07-28T20:35:49.322Z] info: GET /api/v1/user - statusCode: 200 - response-size: 1505 - response-time: 10.846 ms
+[2022-07-28T20:38:25.504Z] info: MongoDb connected
+[2022-07-28T21:00:24.690Z] info: MongoDb connected
+[2022-07-28T21:01:03.044Z] info: POST /api/v1/auth/register - statusCode: 200 - response-size: 49 - response-time: 2145.103 ms
+[2022-07-28T21:01:13.607Z] info: POST /api/v1/auth/login - statusCode: 200 - response-size: 229 - response-time: 235.655 ms
+[2022-07-28T21:01:48.094Z] info: GET /api/v1/user - statusCode: 200 - response-size: 1502 - response-time: 53.425 ms
+[2022-07-28T21:04:37.379Z] info: MongoDb connected
+[2022-07-28T21:05:14.797Z] info: POST /api/v1/auth/register - statusCode: 200 - response-size: 49 - response-time: 49.280 ms
+[2022-07-28T21:05:19.728Z] error: statusCode: 400; statusText: This email is already registered.; stacks: BadRequestError: This email is already registered.
+    at Account.registerNewAccount (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\services\auth\accounts\index.ts:17:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async AuthController.registerNewUser (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\controllers\auth\index.ts:23:7);
+[2022-07-28T21:05:19.730Z] info: POST /api/v1/auth/register - statusCode: 400 - response-size: 74 - response-time: 195.138 ms
+[2022-07-28T21:05:46.139Z] info: POST /api/v1/auth/login - statusCode: 200 - response-size: 229 - response-time: 13.416 ms
+[2022-07-28T21:05:49.671Z] info: POST /api/v1/auth/login - statusCode: 200 - response-size: 229 - response-time: 52.400 ms
+[2022-07-28T21:06:18.496Z] info: GET /api/v1/user - statusCode: 200 - response-size: 1348 - response-time: 47.292 ms
+[2022-07-28T21:08:19.028Z] info: MongoDb connected
+[2022-07-28T21:08:29.724Z] info: POST /api/v1/auth/login - statusCode: 200 - response-size: 229 - response-time: 63.936 ms
+[2022-07-28T21:08:32.747Z] info: POST /api/v1/auth/login - statusCode: 200 - response-size: 229 - response-time: 14.263 ms
+[2022-07-28T21:08:36.660Z] info: POST /api/v1/auth/login - statusCode: 200 - response-size: 229 - response-time: 506.420 ms
+[2022-07-28T21:09:36.402Z] info: POST /api/v1/auth/login - statusCode: 200 - response-size: 235 - response-time: 56.968 ms
+[2022-07-28T21:10:55.826Z] info: GET /api/v1/user - statusCode: 200 - response-size: 1348 - response-time: 16.747 ms
+[2022-07-28T21:12:32.974Z] info: MongoDb connected
+[2022-07-28T21:12:42.578Z] error: statusCode: 401; statusText: Your session has expired!; stacks: UnauthorizedError: Your session has expired!
+    at isAuthenticated (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:30:23)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:216:5
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:136:5;
+[2022-07-28T21:12:42.579Z] info: GET /api/v1/user - statusCode: 401 - response-size: 66 - response-time: 154.564 ms
+[2022-07-28T21:13:06.964Z] info: POST /api/v1/auth/login - statusCode: 200 - response-size: 235 - response-time: 115.248 ms
+[2022-07-28T21:13:30.397Z] info: GET /api/v1/user - statusCode: 200 - response-size: 1348 - response-time: 43.395 ms
+[2022-07-28T21:15:47.196Z] info: MongoDb connected
+[2022-07-28T21:16:01.840Z] error: statusCode: 401; statusText: Your session has expired!; stacks: UnauthorizedError: Your session has expired!
+    at isAuthenticated (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:30:23)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:216:5
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:136:5;
+[2022-07-28T21:16:01.841Z] info: GET /api/v1/user - statusCode: 401 - response-size: 66 - response-time: 154.829 ms
+[2022-07-28T21:16:30.246Z] info: POST /api/v1/auth/login - statusCode: 200 - response-size: 235 - response-time: 15.102 ms
+[2022-07-28T21:16:33.201Z] info: POST /api/v1/auth/login - statusCode: 200 - response-size: 235 - response-time: 22.050 ms
+[2022-07-28T21:17:01.852Z] info: GET /api/v1/user - statusCode: 200 - response-size: 1348 - response-time: 73.340 ms
+[2022-07-28T21:20:00.239Z] info: MongoDb connected
+[2022-07-28T21:20:09.813Z] info: POST /api/v1/auth/login - statusCode: 200 - response-size: 235 - response-time: 45.342 ms
+[2022-07-28T21:20:13.251Z] info: POST /api/v1/auth/login - statusCode: 200 - response-size: 235 - response-time: 435.926 ms
+[2022-07-28T21:20:42.693Z] info: GET /api/v1/user - statusCode: 200 - response-size: 1348 - response-time: 42.044 ms
+[2022-07-28T21:22:55.826Z] info: MongoDb connected
+[2022-07-28T21:23:26.317Z] info: POST /api/v1/auth/login - statusCode: 200 - response-size: 235 - response-time: 68.897 ms
+[2022-07-28T21:23:29.770Z] info: POST /api/v1/auth/login - statusCode: 200 - response-size: 235 - response-time: 34.946 ms
+[2022-07-28T21:23:52.212Z] info: GET /api/v1/user - statusCode: 200 - response-size: 1348 - response-time: 9.581 ms
+[2022-07-28T21:24:00.034Z] info: GET /api/v1/user - statusCode: 200 - response-size: 1348 - response-time: 11.469 ms
+[2022-07-28T21:28:04.070Z] info: MongoDb connected
+[2022-07-28T21:29:36.555Z] info: MongoDb connected
+[2022-07-28T21:29:50.650Z] error: statusCode: 401; statusText: Your session has expired!; stacks: UnauthorizedError: Your session has expired!
+    at isAuthenticated (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:30:23)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:216:5
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:136:5;
+[2022-07-28T21:29:50.651Z] info: GET /api/v1/user - statusCode: 401 - response-size: 66 - response-time: 12.112 ms
+[2022-07-28T21:29:52.618Z] error: statusCode: 401; statusText: Your session has expired!; stacks: UnauthorizedError: Your session has expired!
+    at isAuthenticated (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:30:23)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:216:5
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:136:5;
+[2022-07-28T21:29:52.619Z] info: GET /api/v1/user - statusCode: 401 - response-size: 66 - response-time: 190.933 ms
+[2022-07-28T21:30:02.863Z] info: POST /api/v1/auth/login - statusCode: 200 - response-size: 235 - response-time: 60.471 ms
+[2022-07-28T21:30:05.326Z] info: POST /api/v1/auth/login - statusCode: 200 - response-size: 235 - response-time: 43.307 ms
+[2022-07-28T21:30:25.366Z] info: GET /api/v1/user - statusCode: 200 - response-size: 1348 - response-time: 7.071 ms
+[2022-07-28T21:30:28.546Z] info: GET /api/v1/user - statusCode: 200 - response-size: 1348 - response-time: 11.416 ms
+[2022-07-28T21:33:06.150Z] info: MongoDb connected
+[2022-07-28T21:33:32.547Z] info: POST /api/v1/auth/login - statusCode: 200 - response-size: 235 - response-time: 17.885 ms
+[2022-07-28T21:33:54.935Z] info: GET /api/v1/user - statusCode: 200 - response-size: 1348 - response-time: 68.413 ms
+[2022-07-28T21:35:40.765Z] info: MongoDb connected
+[2022-07-28T21:36:06.400Z] info: POST /api/v1/auth/login - statusCode: 200 - response-size: 235 - response-time: 127.120 ms
+[2022-07-28T21:36:19.186Z] info: POST /api/v1/auth/login - statusCode: 200 - response-size: 235 - response-time: 13.971 ms
+[2022-07-28T21:39:16.992Z] info: MongoDb connected
+[2022-07-28T21:41:11.627Z] error: statusCode: 200; statusText: Origin not allowed by CORS: localhost:5000; stacks: Error: Origin not allowed by CORS: localhost:5000
+    at corsOptionsWhiteList (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\config\config.ts:31:12)
+    at corsMiddleware (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:328:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:280:10)
+    at internalNext (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\helmet\dist\cjs\index.js:451:6)
+    at xXssProtectionMiddleware (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\helmet\dist\cjs\index.js:330:3)
+    at internalNext (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\helmet\dist\cjs\index.js:449:6);
+[2022-07-28T21:41:11.636Z] info: POST /api/v1/auth/login - statusCode: 200 - response-size: 83 - response-time: 18.420 ms
+[2022-07-28T21:41:14.280Z] error: statusCode: 200; statusText: Origin not allowed by CORS: localhost:5000; stacks: Error: Origin not allowed by CORS: localhost:5000
+    at corsOptionsWhiteList (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\config\config.ts:31:12)
+    at corsMiddleware (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:328:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:280:10)
+    at internalNext (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\helmet\dist\cjs\index.js:451:6)
+    at xXssProtectionMiddleware (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\helmet\dist\cjs\index.js:330:3)
+    at internalNext (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\helmet\dist\cjs\index.js:449:6);
+[2022-07-28T21:41:14.282Z] info: POST /api/v1/auth/login - statusCode: 200 - response-size: 83 - response-time: 4.535 ms
+[2022-07-28T21:42:08.691Z] info: MongoDb connected
+[2022-07-28T21:42:32.807Z] info: POST /api/v1/auth/login - statusCode: 200 - response-size: 877 - response-time: 161.078 ms
+[2022-07-28T21:43:19.706Z] info: POST /api/v1/auth/login - statusCode: 200 - response-size: 877 - response-time: 21.805 ms
+[2022-07-28T21:43:36.236Z] error: statusCode: 403; statusText: Please login to continue; stacks: ForbiddenError: Please login to continue
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:54:15
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at isAuthenticated (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:39:7)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:216:5
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:136:5;
+[2022-07-28T21:43:36.238Z] info: GET /api/v1/user - statusCode: 403 - response-size: 65 - response-time: 22.879 ms
+[2022-07-28T21:45:01.202Z] info: MongoDb connected
+[2022-07-28T21:45:09.497Z] info: POST /api/v1/auth/login - statusCode: 200 - response-size: 293 - response-time: 96.609 ms
+[2022-07-28T21:45:28.370Z] error: statusCode: 403; statusText: Please login to continue; stacks: ForbiddenError: Please login to continue
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:54:15
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at isAuthenticated (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:39:7)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:216:5
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:136:5;
+[2022-07-28T21:45:28.373Z] info: GET /api/v1/user - statusCode: 403 - response-size: 65 - response-time: 24.720 ms

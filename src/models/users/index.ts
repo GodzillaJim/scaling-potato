@@ -1,7 +1,6 @@
 import { Schema, model } from "mongoose";
 
 import { RoleSchema } from "../roles";
-import crypto from "crypto";
 
 const UserSchema = new Schema({
   email: {
@@ -29,26 +28,17 @@ const UserSchema = new Schema({
     type: Boolean,
     default: false,
   },
-  emailVerfiedAt: {
+  emailVerifiedAt: {
     type: Date,
     default: undefined,
   },
   emailVerificationCode: String,
+  imageUrl: String,
   salt: String,
   roles: {
-    type: [RoleSchema],
+    type: Array,
     default: [],
   },
 });
-
-UserSchema.methods.setPassword = function (password: string) {
-  this.salt = crypto.randomBytes(16).toString("hex");
-  this.hash = crypto.pbkdf2Sync(password, this.salt, 1000, 64, "sha1").toString("hex");
-};
-
-UserSchema.methods.validatePassword = function (password: string) {
-  const hash = crypto.pbkdf2Sync(password, this.salt, 1000, 64, "sha1").toString("hex");
-  return this.password === hash;
-};
 
 export default model("User", UserSchema);

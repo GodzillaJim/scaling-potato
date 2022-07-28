@@ -108,3 +108,322 @@
     at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:265:14)
     at Function.handle (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:175:3)
     at router (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:47:12);
+[2022-07-25T10:46:37.421Z] error: connect ECONNREFUSED 127.0.0.1:27017
+[2022-07-25T10:47:58.804Z] error: statusCode: 404; statusText: Not Found; stacks: NotFoundError: Not Found
+    at notFound (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\errorHandler.ts:7:22)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:328:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:328:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:286:9;
+[2022-07-25T10:50:18.573Z] error: connect ECONNREFUSED 127.0.0.1:27017
+[2022-07-25T10:53:08.492Z] error: connect ECONNREFUSED 127.0.0.1:27017
+[2022-07-25T10:56:47.047Z] error: connect ECONNREFUSED 127.0.0.1:27017
+[2022-07-25T10:58:43.878Z] error: connect ECONNREFUSED 127.0.0.1:27017
+[2022-07-25T11:11:04.256Z] error: statusCode: 404; statusText: Not Found; stacks: NotFoundError: Not Found
+    at notFound (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\errorHandler.ts:7:22)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:328:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:466:21);
+[2022-07-25T11:11:11.674Z] error: statusCode: 404; statusText: Not Found; stacks: NotFoundError: Not Found
+    at notFound (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\errorHandler.ts:7:22)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:328:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:466:21);
+[2022-07-25T12:48:59.011Z] error: An instance of ContactForm has failed the validation:
+ - property email has failed the following constraints: isNotEmpty, isEmail 
+,An instance of ContactForm has failed the validation:
+ - property subject has failed the following constraints: isNotEmpty 
+,An instance of ContactForm has failed the validation:
+ - property message has failed the following constraints: isNotEmpty 
+
+[2022-07-25T13:20:48.151Z] error: An instance of ContactForm has failed the validation:
+ - property message has failed the following constraints: isNotEmpty 
+
+[2022-07-25T13:21:18.416Z] error: An instance of ContactForm has failed the validation:
+ - property email has failed the following constraints: isEmail 
+
+[2022-07-25T13:53:32.823Z] error: statusCode: 404; statusText: Not Found; stacks: NotFoundError: Not Found
+    at notFound (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\errorHandler.ts:7:22)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:328:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:328:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:286:9;
+[2022-07-25T13:53:56.413Z] error: statusCode: 404; statusText: Not Found; stacks: NotFoundError: Not Found
+    at notFound (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\errorHandler.ts:7:22)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:328:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:328:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:286:9;
+[2022-07-25T14:12:00.798Z] error: statusCode: 404; statusText: Not Found; stacks: NotFoundError: Not Found
+    at notFound (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\errorHandler.ts:7:22)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:328:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:328:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:286:9;
+[2022-07-25T14:14:28.338Z] error: statusCode: 404; statusText: Not Found; stacks: NotFoundError: Not Found
+    at notFound (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\errorHandler.ts:7:22)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:328:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:280:10)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:646:15
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:265:14)
+    at Function.handle (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:47:12);
+[2022-07-25T14:14:30.928Z] error: statusCode: 404; statusText: Not Found; stacks: NotFoundError: Not Found
+    at notFound (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\errorHandler.ts:7:22)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:328:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:328:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:286:9;
+[2022-07-25T14:14:37.917Z] error: statusCode: 404; statusText: Not Found; stacks: NotFoundError: Not Found
+    at notFound (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\errorHandler.ts:7:22)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:328:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:328:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:286:9;
+[2022-07-28T19:14:32.083Z] error: An instance of NewAccount has failed the validation:
+ - property firstName has failed the following constraints: isNotEmpty 
+,An instance of NewAccount has failed the validation:
+ - property lastName has failed the following constraints: isNotEmpty 
+,An instance of NewAccount has failed the validation:
+ - property email has failed the following constraints: isEmail, isNotEmpty 
+,An instance of NewAccount has failed the validation:
+ - property password has failed the following constraints: isNotEmpty 
+
+[2022-07-28T19:15:28.545Z] error: statusCode: 200; statusText: This email is already registered.; stacks: BadRequestError: This email is already registered.
+    at Account.registerNewAccount (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\services\auth\accounts\index.ts:17:13)
+    at AuthController.registerNewUser (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\controllers\auth\index.ts:24:33)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\tools\validators\index.ts:49:16
+    at processTicksAndRejections (node:internal/process/task_queues:96:5);
+[2022-07-28T19:33:22.521Z] error: statusCode: 200; statusText: This person does not exist!; stacks: BadRequestError: This person does not exist!
+    at Account.loginUser (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\services\auth\accounts\index.ts:35:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async AuthController.loginUser (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\controllers\auth\index.ts:34:25);
+[2022-07-28T19:33:28.916Z] error: statusCode: 200; statusText: This person does not exist!; stacks: BadRequestError: This person does not exist!
+    at Account.loginUser (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\services\auth\accounts\index.ts:35:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async AuthController.loginUser (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\controllers\auth\index.ts:34:25);
+[2022-07-28T19:33:56.574Z] error: statusCode: 200; statusText: Wrong username or password!; stacks: BadRequestError: Wrong username or password!
+    at Account.loginUser (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\services\auth\accounts\index.ts:43:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async AuthController.loginUser (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\controllers\auth\index.ts:34:25);
+[2022-07-28T19:33:59.472Z] error: statusCode: 200; statusText: Wrong username or password!; stacks: BadRequestError: Wrong username or password!
+    at Account.loginUser (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\services\auth\accounts\index.ts:43:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async AuthController.loginUser (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\controllers\auth\index.ts:34:25);
+[2022-07-28T19:40:27.713Z] error: statusCode: 200; statusText: Wrong username or password!; stacks: BadRequestError: Wrong username or password!
+    at Account.loginUser (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\services\auth\accounts\index.ts:47:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async AuthController.loginUser (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\controllers\auth\index.ts:34:25);
+[2022-07-28T19:40:52.337Z] error: statusCode: 200; statusText: This person does not exist!; stacks: BadRequestError: This person does not exist!
+    at Account.loginUser (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\services\auth\accounts\index.ts:35:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async AuthController.loginUser (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\controllers\auth\index.ts:34:25);
+[2022-07-28T19:40:55.164Z] error: statusCode: 200; statusText: This person does not exist!; stacks: BadRequestError: This person does not exist!
+    at Account.loginUser (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\services\auth\accounts\index.ts:35:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async AuthController.loginUser (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\controllers\auth\index.ts:34:25);
+[2022-07-28T19:47:13.115Z] error: statusCode: 400; statusText: This person does not exist!; stacks: BadRequestError: This person does not exist!
+    at Account.loginUser (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\services\auth\accounts\index.ts:35:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async AuthController.loginUser (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\controllers\auth\index.ts:33:25);
+[2022-07-28T19:47:24.649Z] error: statusCode: 400; statusText: Wrong username or password!; stacks: BadRequestError: Wrong username or password!
+    at Account.loginUser (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\services\auth\accounts\index.ts:47:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async AuthController.loginUser (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\controllers\auth\index.ts:33:25);
+[2022-07-28T20:13:40.379Z] error: statusCode: 401; statusText: Please provide a token on header field Authorization; stacks: UnauthorizedError: Please provide a token on header field Authorization
+    at isAuthenticated (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:21:23)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:216:5
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:136:5;
+[2022-07-28T20:13:58.576Z] error: statusCode: 400; statusText: Wrong username or password!; stacks: BadRequestError: Wrong username or password!
+    at Account.loginUser (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\services\auth\accounts\index.ts:47:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async AuthController.loginUser (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\controllers\auth\index.ts:33:25);
+[2022-07-28T20:14:01.833Z] error: statusCode: 400; statusText: Wrong username or password!; stacks: BadRequestError: Wrong username or password!
+    at Account.loginUser (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\services\auth\accounts\index.ts:47:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async AuthController.loginUser (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\controllers\auth\index.ts:33:25);
+[2022-07-28T20:14:44.571Z] error: statusCode: 200; statusText: Cannot read property 'authService' of undefined; stacks: TypeError: Cannot read property 'authService' of undefined
+    at isAuthenticated (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:27:33)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:216:5
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:136:5;
+[2022-07-28T20:14:47.197Z] error: statusCode: 200; statusText: Cannot read property 'authService' of undefined; stacks: TypeError: Cannot read property 'authService' of undefined
+    at isAuthenticated (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:27:33)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:216:5
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:136:5;
+[2022-07-28T20:16:02.844Z] error: statusCode: 200; statusText: Cannot read property 'authService' of undefined; stacks: TypeError: Cannot read property 'authService' of undefined
+    at isAuthenticated (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:27:33)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:216:5
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:136:5;
+[2022-07-28T20:23:59.875Z] error: statusCode: 200; statusText: Cannot read property 'authService' of undefined; stacks: TypeError: Cannot read property 'authService' of undefined
+    at isAuthenticated (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:27:28)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:216:5
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:136:5;
+[2022-07-28T20:29:34.234Z] error: statusCode: 200; statusText: Cannot read property 'authService' of undefined; stacks: TypeError: Cannot read property 'authService' of undefined
+    at isAuthenticated (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:27:28)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:216:5
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:136:5;
+[2022-07-28T20:34:04.041Z] error: statusCode: 401; statusText: Your session has expired!; stacks: UnauthorizedError: Your session has expired!
+    at isAuthenticated (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:30:23)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:216:5
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:136:5;
+[2022-07-28T20:34:06.744Z] error: statusCode: 401; statusText: Your session has expired!; stacks: UnauthorizedError: Your session has expired!
+    at isAuthenticated (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:30:23)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:216:5
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:136:5;
+[2022-07-28T20:34:38.785Z] error: statusCode: 401; statusText: Your session has expired!; stacks: UnauthorizedError: Your session has expired!
+    at isAuthenticated (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:30:23)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:216:5
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:136:5;
+[2022-07-28T20:34:42.057Z] error: statusCode: 401; statusText: Your session has expired!; stacks: UnauthorizedError: Your session has expired!
+    at isAuthenticated (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:30:23)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:216:5
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:136:5;
+[2022-07-28T21:05:19.728Z] error: statusCode: 400; statusText: This email is already registered.; stacks: BadRequestError: This email is already registered.
+    at Account.registerNewAccount (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\services\auth\accounts\index.ts:17:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async AuthController.registerNewUser (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\controllers\auth\index.ts:23:7);
+[2022-07-28T21:12:42.578Z] error: statusCode: 401; statusText: Your session has expired!; stacks: UnauthorizedError: Your session has expired!
+    at isAuthenticated (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:30:23)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:216:5
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:136:5;
+[2022-07-28T21:16:01.840Z] error: statusCode: 401; statusText: Your session has expired!; stacks: UnauthorizedError: Your session has expired!
+    at isAuthenticated (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:30:23)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:216:5
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:136:5;
+[2022-07-28T21:29:50.650Z] error: statusCode: 401; statusText: Your session has expired!; stacks: UnauthorizedError: Your session has expired!
+    at isAuthenticated (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:30:23)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:216:5
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:136:5;
+[2022-07-28T21:29:52.618Z] error: statusCode: 401; statusText: Your session has expired!; stacks: UnauthorizedError: Your session has expired!
+    at isAuthenticated (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:30:23)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:216:5
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:136:5;
+[2022-07-28T21:41:11.627Z] error: statusCode: 200; statusText: Origin not allowed by CORS: localhost:5000; stacks: Error: Origin not allowed by CORS: localhost:5000
+    at corsOptionsWhiteList (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\config\config.ts:31:12)
+    at corsMiddleware (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:328:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:280:10)
+    at internalNext (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\helmet\dist\cjs\index.js:451:6)
+    at xXssProtectionMiddleware (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\helmet\dist\cjs\index.js:330:3)
+    at internalNext (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\helmet\dist\cjs\index.js:449:6);
+[2022-07-28T21:41:14.280Z] error: statusCode: 200; statusText: Origin not allowed by CORS: localhost:5000; stacks: Error: Origin not allowed by CORS: localhost:5000
+    at corsOptionsWhiteList (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\config\config.ts:31:12)
+    at corsMiddleware (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:328:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\index.js:280:10)
+    at internalNext (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\helmet\dist\cjs\index.js:451:6)
+    at xXssProtectionMiddleware (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\helmet\dist\cjs\index.js:330:3)
+    at internalNext (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\helmet\dist\cjs\index.js:449:6);
+[2022-07-28T21:43:36.236Z] error: statusCode: 403; statusText: Please login to continue; stacks: ForbiddenError: Please login to continue
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:54:15
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at isAuthenticated (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:39:7)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:216:5
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:136:5;
+[2022-07-28T21:45:28.370Z] error: statusCode: 403; statusText: Please login to continue; stacks: ForbiddenError: Please login to continue
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:54:15
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at isAuthenticated (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:39:7)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:216:5
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:136:5;

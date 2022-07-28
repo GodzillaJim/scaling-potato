@@ -1,11 +1,10 @@
-import { corsOptionsWhiteList, morganConfig } from "./config/config";
-import { handleError, notFound } from "./middleware/errorHandler";
-
 import cors from "cors";
 import dotenv from "dotenv";
 import express from "express";
 import helmet from "helmet";
 import morgan from "morgan";
+import { handleError, notFound } from "./middleware/errorHandler";
+import { corsOptionsWhiteList, morganConfig } from "./config/config";
 import router from "./routes";
 
 dotenv.config();
