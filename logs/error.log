@@ -427,3 +427,406 @@
     at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:216:5
     at processTicksAndRejections (node:internal/process/task_queues:96:5)
     at async D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:136:5;
+[2022-07-29T18:02:02.674Z] error: statusCode: 403; statusText: Please login to continue; stacks: ForbiddenError: Please login to continue
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:54:15
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at isAuthenticated (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:39:7)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:216:5
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:136:5;
+[2022-07-29T18:02:08.183Z] error: statusCode: 403; statusText: Please login to continue; stacks: ForbiddenError: Please login to continue
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:54:15
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at isAuthenticated (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:39:7)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:216:5
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:136:5;
+[2022-07-30T13:36:44.899Z] error: statusCode: 403; statusText: Please login to continue; stacks: ForbiddenError: Please login to continue
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:54:15
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at isAuthenticated (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:39:7)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:216:5
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:136:5;
+[2022-07-30T13:39:39.709Z] error: statusCode: 403; statusText: Please login to continue; stacks: ForbiddenError: Please login to continue
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:55:15
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at isAuthenticated (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:39:7)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:216:5
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:136:5;
+[2022-07-30T13:40:48.883Z] error: statusCode: 403; statusText: Please login to continue; stacks: ForbiddenError: Please login to continue
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:55:15
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at isAuthenticated (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:39:7)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:216:5
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:136:5;
+[2022-07-30T13:41:55.612Z] error: statusCode: 403; statusText: Please login to continue; stacks: ForbiddenError: Please login to continue
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:56:15
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at isAuthenticated (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:39:7)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:216:5
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:136:5;
+[2022-07-30T13:52:37.598Z] error: statusCode: 403; statusText: Please login to continue; stacks: ForbiddenError: Please login to continue
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:56:15
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at isAuthenticated (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:39:7)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:216:5
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:136:5;
+[2022-07-30T13:52:40.462Z] error: statusCode: 403; statusText: Please login to continue; stacks: ForbiddenError: Please login to continue
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:56:15
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at isAuthenticated (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:39:7)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:216:5
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:136:5;
+[2022-07-30T13:52:42.172Z] error: statusCode: 400; statusText: This email is already registered.; stacks: BadRequestError: This email is already registered.
+    at Account.registerNewAccount (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\services\auth\accounts\index.ts:18:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async AuthController.registerNewUser (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\controllers\auth\index.ts:23:7);
+[2022-07-30T13:52:58.566Z] error: statusCode: 403; statusText: Please login to continue; stacks: ForbiddenError: Please login to continue
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:56:15
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at isAuthenticated (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:39:7)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:216:5
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:136:5;
+[2022-07-30T13:53:20.911Z] error: statusCode: 403; statusText: Please login to continue; stacks: ForbiddenError: Please login to continue
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:56:15
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at isAuthenticated (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:39:7)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:216:5
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:136:5;
+[2022-07-30T13:53:23.786Z] error: statusCode: 403; statusText: Please login to continue; stacks: ForbiddenError: Please login to continue
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:56:15
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at isAuthenticated (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:39:7)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:216:5
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:136:5;
+[2022-07-30T13:55:34.300Z] error: statusCode: 403; statusText: Please login to continue; stacks: ForbiddenError: Please login to continue
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:56:15
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at isAuthenticated (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:39:7)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:216:5
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:136:5;
+[2022-07-30T13:58:25.315Z] error: statusCode: 403; statusText: Please login to continue; stacks: ForbiddenError: Please login to continue
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:56:15
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at isAuthenticated (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:39:7)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:216:5
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:136:5;
+[2022-07-30T13:58:31.307Z] error: statusCode: 403; statusText: Please login to continue; stacks: ForbiddenError: Please login to continue
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:56:15
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at isAuthenticated (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:39:7)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:216:5
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:136:5;
+[2022-07-30T14:29:41.720Z] error: statusCode: 403; statusText: Please login to continue; stacks: ForbiddenError: Please login to continue
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:56:15
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at isAuthenticated (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:39:7)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:216:5
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:136:5;
+[2022-07-30T14:31:26.760Z] error: statusCode: 403; statusText: Please login to continue; stacks: ForbiddenError: Please login to continue
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:56:15
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at isAuthenticated (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:39:7)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:216:5
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:136:5;
+[2022-07-30T14:32:51.792Z] error: statusCode: 403; statusText: Please login to continue; stacks: ForbiddenError: Please login to continue
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:56:15
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at isAuthenticated (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:39:7)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:216:5
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:136:5;
+[2022-07-30T14:34:52.257Z] error: statusCode: 403; statusText: Please login to continue; stacks: ForbiddenError: Please login to continue
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:56:23
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at isAuthenticated (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:39:7)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:216:5
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:136:5;
+[2022-07-30T14:37:29.873Z] error: statusCode: 403; statusText: Please login to continue; stacks: ForbiddenError: Please login to continue
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:56:23
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at isAuthenticated (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:39:7)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:216:5
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:136:5;
+[2022-07-30T14:40:09.127Z] error: statusCode: 403; statusText: Please login to continue; stacks: ForbiddenError: Please login to continue
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:58:23
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at isAuthenticated (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:39:7)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:216:5
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:136:5;
+[2022-07-30T15:25:17.297Z] error: statusCode: 403; statusText: Please login to continue; stacks: ForbiddenError: Please login to continue
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:69:23
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:39:7
+    at step (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:33:23)
+    at Object.next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:14:53)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:4:12)
+    at AuthChecker.isAuthenticated (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:52:16);
+[2022-07-30T15:28:33.560Z] error: statusCode: 403; statusText: Please login to continue; stacks: ForbiddenError: Please login to continue
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:69:23
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:39:7
+    at step (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:33:23)
+    at Object.next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:14:53)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:4:12)
+    at AuthChecker.isAuthenticated (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:52:16);
+[2022-07-30T15:31:43.365Z] error: statusCode: 403; statusText: Please login to continue; stacks: ForbiddenError: Please login to continue
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:70:23
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:39:7
+    at step (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:33:23)
+    at Object.next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:14:53)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:4:12)
+    at AuthChecker.isAuthenticated (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:52:16);
+[2022-07-30T15:34:06.007Z] error: statusCode: 403; statusText: Please login to continue; stacks: ForbiddenError: Please login to continue
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:70:23
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:39:7
+    at step (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:33:23)
+    at Object.next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:14:53)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:4:12)
+    at AuthChecker.isAuthenticated (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:52:16);
+[2022-07-30T15:35:53.276Z] error: statusCode: 403; statusText: Please login to continue; stacks: ForbiddenError: Please login to continue
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:71:23
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:40:7
+    at step (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:33:23)
+    at Object.next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:14:53)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:4:12)
+    at AuthChecker.isAuthenticated (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:52:16);
+[2022-07-30T15:40:10.135Z] error: statusCode: 403; statusText: Please login to continue; stacks: ForbiddenError: Please login to continue
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:71:23
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:40:7
+    at step (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:33:23)
+    at Object.next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:14:53)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:4:12)
+    at AuthChecker.isAuthenticated (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:52:16);
+[2022-07-30T16:00:15.518Z] error: statusCode: 403; statusText: Please login to continue; stacks: ForbiddenError: Please login to continue
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:71:23
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:40:7
+    at step (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:33:23)
+    at Object.next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:14:53)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:4:12)
+    at AuthChecker.isAuthenticated (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:52:16);
+[2022-07-30T16:03:55.492Z] error: statusCode: 401; statusText: Please login to continue; stacks: UnauthorizedError: Please login to continue
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:31:21
+    at step (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:33:23)
+    at Object.next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:14:53)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:4:12)
+    at AuthChecker.isAuthenticated (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:52:16)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:216:5;
+[2022-07-30T16:04:49.114Z] error: statusCode: 401; statusText: Please login to continue; stacks: UnauthorizedError: Please login to continue
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:31:21
+    at step (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:33:23)
+    at Object.next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:14:53)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:4:12)
+    at AuthChecker.isAuthenticated (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:52:16)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:216:5;
+[2022-07-30T16:06:42.687Z] error: statusCode: 403; statusText: Please login to continue; stacks: ForbiddenError: Please login to continue
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:65:23
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:28:11
+    at step (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:33:23)
+    at Object.next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:14:53)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:4:12)
+    at AuthChecker.isAuthenticated (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:52:16);
+[2022-07-30T16:08:41.148Z] error: statusCode: 403; statusText: Forbidden; stacks: ForbiddenError: Forbidden
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:67:23
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:28:11
+    at step (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:33:23)
+    at Object.next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:14:53)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:4:12)
+    at AuthChecker.isAuthenticated (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:52:16);
+[2022-07-30T16:11:24.351Z] error: statusCode: 403; statusText: Forbidden; stacks: ForbiddenError: Forbidden
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:68:23
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:28:11
+    at step (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:33:23)
+    at Object.next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:14:53)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:4:12)
+    at AuthChecker.isAuthenticated (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:52:16);
+[2022-07-30T16:13:16.576Z] error: statusCode: 403; statusText: Forbidden; stacks: ForbiddenError: Forbidden
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:68:23
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:28:11
+    at step (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:33:23)
+    at Object.next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:14:53)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:4:12)
+    at AuthChecker.isAuthenticated (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:52:16);
+[2022-07-30T16:15:19.864Z] error: statusCode: 403; statusText: Forbidden; stacks: ForbiddenError: Forbidden
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:68:23
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:28:11
+    at step (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:33:23)
+    at Object.next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:14:53)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:4:12)
+    at AuthChecker.isAuthenticated (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:51:16);
+[2022-07-30T16:18:58.588Z] error: statusCode: 401; statusText: Please login to continue; stacks: UnauthorizedError: Please login to continue
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:31:21
+    at step (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:33:23)
+    at Object.next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:14:53)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:4:12)
+    at AuthChecker.isAuthenticated (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:51:16)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:216:5;
+[2022-07-30T17:35:39.867Z] error: statusCode: 401; statusText: Please login to continue; stacks: UnauthorizedError: Please login to continue
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:32:21
+    at step (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:33:23)
+    at Object.next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:14:53)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:4:12)
+    at AuthChecker.isAuthenticated (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:52:16)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:216:5;
+[2022-07-30T17:56:48.680Z] error: statusCode: 401; statusText: Please login to continue; stacks: UnauthorizedError: Please login to continue
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:32:21
+    at step (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:33:23)
+    at Object.next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:14:53)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:4:12)
+    at AuthChecker.isAuthenticated (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:52:16)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:216:5;
+[2022-07-30T18:00:41.320Z] error: statusCode: 401; statusText: Please login to continue; stacks: UnauthorizedError: Please login to continue
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:32:21
+    at step (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:33:23)
+    at Object.next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:14:53)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:4:12)
+    at AuthChecker.isAuthenticated (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\src\middleware\auth\index.ts:52:16)
+    at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
+    at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:216:5;

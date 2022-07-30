@@ -4,19 +4,15 @@ import logger from "../config/logger.config";
 import AuthService from "../services/auth/tools";
 import { Role as ERole } from "../types";
 
-const roleList = [
-  ERole.ADMIN.toString(),
-  ERole.END_USER.toString(),
-  ERole.SUPERADMIN.toString(),
-];
+const roleList = [ERole.ADMIN, ERole.END_USER, ERole.SUPER_ADMIN];
 const authService = new AuthService();
 export const seedRoles = async () => {
   try {
     const roles = await Role.find({});
     if (roles.length === 0) {
-      const roleArr = roleList.map((role: string) => {
+      const roleArr = roleList.map((role: ERole) => {
         const temp = new Role();
-        temp.name = role;
+        temp.name = role.toString();
         temp.createdBy = "GodzillaJim";
         return temp;
       });

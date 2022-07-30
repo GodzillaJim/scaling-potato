@@ -1,7 +1,7 @@
 export enum Role {
-  END_USER,
-  ADMIN,
-  SUPERADMIN,
+  END_USER = 0,
+  ADMIN = 1,
+  SUPER_ADMIN = 2,
 }
 export interface IUser {
   email: string;

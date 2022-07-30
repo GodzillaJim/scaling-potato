@@ -3,7 +3,6 @@ import NewAccount from "../../../types/dto/registration";
 import { User } from "../../../models";
 import AuthService from "../tools";
 import Login from "../../../types/dto/login";
-import Role from "../../../models/roles";
 
 class Account {
   authService: AuthService;
@@ -51,6 +50,7 @@ class Account {
       throw error;
     }
 
+    console.log("Accounts.User.Roles", user.roles);
     return this.authService.generateJwtToken({
       email,
       firstName: user.firstName,
