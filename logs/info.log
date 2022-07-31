@@ -1246,3 +1246,62 @@
 [2022-07-30T18:34:00.017Z] info: GET /api/v1/user - statusCode: 401 - response-size: 52 - response-time: 76.553 ms
 [2022-07-30T18:34:15.998Z] info: POST /api/v1/auth/login - statusCode: 200 - response-size: 269 - response-time: 366.331 ms
 [2022-07-30T18:34:43.689Z] info: GET /api/v1/user - statusCode: 200 - response-size: 984 - response-time: 10.013 ms
+[2022-07-30T19:31:12.597Z] info: MongoDb connected
+[2022-07-30T19:32:11.815Z] info: POST /api/v1/user/register - statusCode: 404 - response-size: 160 - response-time: 7.207 ms
+[2022-07-30T19:32:47.538Z] error: An instance of e has failed the validation:
+ - property firstName has failed the following constraints: isNotEmpty 
+,An instance of e has failed the validation:
+ - property lastName has failed the following constraints: isNotEmpty 
+,An instance of e has failed the validation:
+ - property email has failed the following constraints: isEmail, isNotEmpty 
+,An instance of e has failed the validation:
+ - property password has failed the following constraints: isNotEmpty 
+
+[2022-07-30T19:32:47.544Z] info: POST /api/v1/auth/register - statusCode: 400 - response-size: 240 - response-time: 20.156 ms
+[2022-07-30T19:33:34.328Z] info: POST /api/v1/auth/register - statusCode: 200 - response-size: 49 - response-time: 321.083 ms
+[2022-07-30T19:34:21.078Z] info: POST /api/v1/auth/login - statusCode: 200 - response-size: 246 - response-time: 90.987 ms
+[2022-07-30T19:35:52.583Z] info: GET /api/v1/user - statusCode: 403 - response-size: 26 - response-time: 5.856 ms
+[2022-07-30T19:36:37.950Z] info: POST /api/v1/auth/login - statusCode: 200 - response-size: 269 - response-time: 14.013 ms
+[2022-07-30T19:37:08.902Z] info: GET /api/v1/user - statusCode: 200 - response-size: 1330 - response-time: 17.338 ms
+[2022-07-30T20:11:17.746Z] info: MongoDb connected
+[2022-07-30T20:11:58.748Z] info: POST /api/v1/auth/login - statusCode: 200 - response-size: 346 - response-time: 428.438 ms
+[2022-07-30T20:14:17.872Z] info: MongoDb connected
+[2022-07-30T20:15:37.256Z] info: POST /api/v1/auth/login - statusCode: 200 - response-size: 336 - response-time: 60.180 ms
+[2022-07-30T20:17:40.474Z] info: POST /api/v1/auth/login - statusCode: 200 - response-size: 336 - response-time: 22.900 ms
+[2022-07-30T22:00:24.831Z] info: OPTIONS /api/v1/auth/login - statusCode: 204 - response-size: 0 - response-time: 311.141 ms
+[2022-07-30T22:00:35.173Z] info: POST /api/v1/auth/login - statusCode: 400 - response-size: 861 - response-time: 9917.810 ms
+[2022-07-30T22:01:27.245Z] info: POST /api/v1/auth/login - statusCode: 400 - response-size: 861 - response-time: 213.941 ms
+[2022-07-30T22:18:53.428Z] info: OPTIONS /api/v1/auth/login - statusCode: 204 - response-size: 0 - response-time: 215.022 ms
+[2022-07-30T22:18:54.763Z] info: POST /api/v1/auth/login - statusCode: 400 - response-size: 861 - response-time: 1253.130 ms
+[2022-07-30T22:19:06.865Z] info: POST /api/v1/auth/login - statusCode: 200 - response-size: 336 - response-time: 601.832 ms
+[2022-07-30T22:19:24.097Z] info: OPTIONS /api/v1/auth/login - statusCode: 204 - response-size: 0 - response-time: 0.594 ms
+[2022-07-30T22:19:24.388Z] info: POST /api/v1/auth/login - statusCode: 200 - response-size: 336 - response-time: 229.771 ms
+[2022-07-30T22:30:07.957Z] info: MongoDb connected
+[2022-07-30T22:31:50.803Z] info: OPTIONS /api/v1/auth/login - statusCode: 204 - response-size: 0 - response-time: 3.506 ms
+[2022-07-30T22:31:51.019Z] info: POST /api/v1/auth/login - statusCode: 200 - response-size: 394 - response-time: 208.433 ms
+[2022-07-30T22:33:38.263Z] info: OPTIONS /api/v1/auth/login - statusCode: 204 - response-size: 0 - response-time: 0.718 ms
+[2022-07-30T22:33:38.296Z] info: POST /api/v1/auth/login - statusCode: 200 - response-size: 394 - response-time: 23.480 ms
+[2022-07-30T22:48:53.999Z] info: OPTIONS /api/v1/auth/login - statusCode: 204 - response-size: 0 - response-time: 173.363 ms
+[2022-07-30T22:48:55.655Z] info: POST /api/v1/auth/login - statusCode: 200 - response-size: 394 - response-time: 1271.084 ms
+[2022-07-30T22:50:20.173Z] info: OPTIONS /api/v1/auth/login - statusCode: 204 - response-size: 0 - response-time: 62.507 ms
+[2022-07-30T22:50:20.337Z] info: POST /api/v1/auth/login - statusCode: 200 - response-size: 394 - response-time: 65.136 ms
+[2022-07-30T22:50:32.570Z] info: OPTIONS /api/v1/auth/login - statusCode: 204 - response-size: 0 - response-time: 96.439 ms
+[2022-07-30T22:50:33.306Z] info: POST /api/v1/auth/login - statusCode: 200 - response-size: 394 - response-time: 649.468 ms
+[2022-07-30T22:55:32.967Z] info: OPTIONS /api/v1/auth/login - statusCode: 204 - response-size: 0 - response-time: 51.910 ms
+[2022-07-30T22:55:33.143Z] info: POST /api/v1/auth/login - statusCode: 200 - response-size: 394 - response-time: 118.200 ms
+[2022-07-30T22:55:46.220Z] info: OPTIONS /api/v1/auth/login - statusCode: 204 - response-size: 0 - response-time: 0.476 ms
+[2022-07-30T22:55:46.350Z] info: POST /api/v1/auth/login - statusCode: 200 - response-size: 394 - response-time: 80.894 ms
+[2022-07-30T22:56:10.740Z] info: OPTIONS /api/v1/auth/login - statusCode: 204 - response-size: 0 - response-time: 0.618 ms
+[2022-07-30T22:56:11.036Z] info: POST /api/v1/auth/login - statusCode: 200 - response-size: 394 - response-time: 166.879 ms
+[2022-07-30T22:56:56.818Z] info: OPTIONS /api/v1/auth/login - statusCode: 204 - response-size: 0 - response-time: 0.336 ms
+[2022-07-30T22:56:56.968Z] info: POST /api/v1/auth/login - statusCode: 200 - response-size: 394 - response-time: 128.813 ms
+[2022-07-30T22:59:23.420Z] info: OPTIONS /api/v1/auth/login - statusCode: 204 - response-size: 0 - response-time: 0.574 ms
+[2022-07-30T22:59:23.699Z] info: POST /api/v1/auth/login - statusCode: 200 - response-size: 394 - response-time: 227.573 ms
+[2022-07-31T12:15:44.329Z] info: MongoDb connected
+[2022-07-31T12:16:38.786Z] info: OPTIONS /api/v1/auth/register - statusCode: 204 - response-size: 0 - response-time: 6.861 ms
+[2022-07-31T12:16:40.101Z] info: POST /api/v1/auth/register - statusCode: 200 - response-size: 49 - response-time: 1306.508 ms
+[2022-07-31T12:17:02.720Z] info: OPTIONS /api/v1/auth/login - statusCode: 204 - response-size: 0 - response-time: 0.472 ms
+[2022-07-31T12:17:02.747Z] info: POST /api/v1/auth/login - statusCode: 200 - response-size: 319 - response-time: 20.278 ms
+[2022-07-31T12:26:42.354Z] info: MongoDb connected
+[2022-07-31T12:30:15.777Z] info: OPTIONS /api/v1/auth/login - statusCode: 204 - response-size: 0 - response-time: 4.505 ms
+[2022-07-31T12:30:16.666Z] info: POST /api/v1/auth/login - statusCode: 200 - response-size: 319 - response-time: 884.042 ms

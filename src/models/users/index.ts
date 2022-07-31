@@ -1,7 +1,5 @@
 import { Schema, model } from "mongoose";
 
-import { RoleSchema } from "../roles";
-
 const UserSchema = new Schema({
   email: {
     type: String,
@@ -33,7 +31,10 @@ const UserSchema = new Schema({
     default: undefined,
   },
   emailVerificationCode: String,
-  imageUrl: String,
+  avatar: {
+    type: String,
+    default: "https://thispersondoesnotexist.com",
+  },
   salt: String,
   roles: {
     type: Array,

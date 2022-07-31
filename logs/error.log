@@ -830,3 +830,12 @@
     at Layer.handle [as handle_request] (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\layer.js:95:5)
     at next (D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express\lib\router\route.js:144:13)
     at D:\Projects\typescript\chinua_achebe_period\ms\collaborator\node_modules\express-rate-limit\dist\index.cjs:216:5;
+[2022-07-30T19:32:47.538Z] error: An instance of e has failed the validation:
+ - property firstName has failed the following constraints: isNotEmpty 
+,An instance of e has failed the validation:
+ - property lastName has failed the following constraints: isNotEmpty 
+,An instance of e has failed the validation:
+ - property email has failed the following constraints: isEmail, isNotEmpty 
+,An instance of e has failed the validation:
+ - property password has failed the following constraints: isNotEmpty 
+

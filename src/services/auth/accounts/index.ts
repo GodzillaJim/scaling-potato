@@ -4,7 +4,7 @@ import { User } from "../../../models";
 import AuthService from "../tools";
 import Login from "../../../types/dto/login";
 
-class Account {
+export default class Account {
   authService: AuthService;
 
   constructor() {
@@ -24,6 +24,9 @@ class Account {
     newUser.password = hash;
     newUser.salt = salt;
     newUser.roles = await this.authService.getDefaultRoles();
+    if(account.avatar){
+      newUser.avatar = account.avatar
+    }
     await newUser.save();
     return { success: true, message: "Account created successfully!" };
   }
@@ -50,12 +53,11 @@ class Account {
       throw error;
     }
 
-    console.log("Accounts.User.Roles", user.roles);
-    return this.authService.generateJwtToken({
+    const token = this.authService.generateJwtToken({
       email,
       firstName: user.firstName,
       roles: user.roles.map(({ name }: { name: string }) => name),
     });
+    return { ...token, firstName: user.firstName, avatar: user.avatar };
   }
 }
-export default Account;

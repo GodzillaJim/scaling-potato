@@ -1,7 +1,7 @@
 import { config } from "dotenv";
 import logger from "winston";
 import MongoDb from "./config/mongodb.config";
-import app from "./server";
+import app from "./app";
 import { seedAdmin, seedRoles } from "./seed";
 
 config();

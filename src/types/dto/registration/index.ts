@@ -13,4 +13,6 @@ export default class NewAccount {
 
   @IsNotEmpty()
   password: string;
+
+  avatar?: string
 }

@@ -36,7 +36,7 @@ export const seedAdmin = async () => {
       user.lastName = faker.name.lastName();
       user.password = hash;
       user.salt = salt;
-      user.imageUrl = faker.image.avatar();
+      user.avatar = faker.image.avatar();
       user.disabled = false;
       user.verified = true;
       user.emailVerifiedAt = new Date();
