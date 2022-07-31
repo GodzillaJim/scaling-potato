@@ -23,3 +23,7 @@ export interface IContactForm {
   subject: string;
   message: string;
 }
+
+export interface ITask {
+  name: string, owner: IUser
+}

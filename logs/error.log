@@ -839,3 +839,9 @@
 ,An instance of e has failed the validation:
  - property password has failed the following constraints: isNotEmpty 
 
+[2022-07-31T13:48:25.046Z] error: An instance of TaskDTO has failed the validation:
+ - property name has failed the following constraints: isNotEmpty 
+
+[2022-07-31T13:49:52.519Z] error: An instance of TaskID has failed the validation:
+ - property id has failed the following constraints: isNotEmpty 
+

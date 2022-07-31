@@ -25,8 +25,6 @@ V
 &src/services/UserService/index.test.ts,d\4\d44d7130c3089903258942a20f53dd8915c1b42b
 I
 src/models/roles/index.ts,e\5\e52c427943c340b1d061c08e028cae579dc4e1cf
-B
-src/types/index.ts,c\d\cd7a0a5ed00515f0d0cd32a8badd4ed5ef962af8
 >
 jest.config.js,8\8\881d5d47bdc17ef8facebef59b68b5fc099a0293
 A
@@ -40,3 +38,30 @@ C
 src/errors/index.ts,1\c\1c1689cd3167ebbe1900b080f4d53c6d35f41792
 L
 src/middleware/auth/index.ts,c\b\cb0dd493418c1f9b73fc87df6777ecb2d17195be
+Q
+!src/services/UserService/index.ts,6\a\6a5ef13c10c0778545736d3be548c3d37b26e45a
+M
+src/controllers/user/index.ts,6\5\65ae663881b1df7bf5f018151a3e32de22441608
+<
+package.json,7\0\7030d0b2f71b999ff89a343de08c414af32fc93a
+H
+src/routes/auth/index.ts,d\8\d81063fc77e83e2ca1d06243d666b70e962cbf00
+:
+
+.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
+D
+src/config/config.ts,6\7\67497055fe55741a708bf9cb7932a949f241dc8e
+S
+#src/types/dto/registration/index.ts,7\6\76ea23551dac4a799f979981591712bf567f759b
+<
+src/index.ts,c\5\c5fb850250c7443c48a6c12b5cf6916773da31f1
+A
+src/seed/index.ts,b\c\bc383e20b004ffce36c44b06b15ab5c7bd2645d7
+P
+ src/services/auth/tools/index.ts,5\4\5458c63a30d884f04af57ee56d6b04246959eeb7
+I
+src/models/users/index.ts,e\9\e92f6afa3e374dee711f1c1b7d9f01c5052f27aa
+S
+#src/services/auth/accounts/index.ts,4\e\4edf88cc6a3e0cd0dea054c583ccaf9dddd0935d
+M
+src/controllers/auth/index.ts,d\4\d4b25904b0425c6b80cc40cc290a0fc89be0ec8f

@@ -1305,3 +1305,31 @@
 [2022-07-31T12:26:42.354Z] info: MongoDb connected
 [2022-07-31T12:30:15.777Z] info: OPTIONS /api/v1/auth/login - statusCode: 204 - response-size: 0 - response-time: 4.505 ms
 [2022-07-31T12:30:16.666Z] info: POST /api/v1/auth/login - statusCode: 200 - response-size: 319 - response-time: 884.042 ms
+[2022-07-31T13:41:24.699Z] info: MongoDb connected
+[2022-07-31T13:43:02.833Z] info: POST /api/v1/auth/login - statusCode: 200 - response-size: 394 - response-time: 219.945 ms
+[2022-07-31T13:44:20.163Z] info: GET /api/v1/user - statusCode: 200 - response-size: 1378 - response-time: 16.450 ms
+[2022-07-31T13:45:13.947Z] info: POST /api/v1/task - statusCode: 401 - response-size: 52 - response-time: 4.014 ms
+[2022-07-31T13:45:37.829Z] info: POST /api/v1/task - statusCode: 401 - response-size: 52 - response-time: 2.154 ms
+[2022-07-31T13:47:34.072Z] info: MongoDb connected
+[2022-07-31T13:47:38.934Z] info: POST /api/v1/task - statusCode: 401 - response-size: 52 - response-time: 46.489 ms
+[2022-07-31T13:48:25.046Z] error: An instance of TaskDTO has failed the validation:
+ - property name has failed the following constraints: isNotEmpty 
+
+[2022-07-31T13:48:25.048Z] info: POST /api/v1/task - statusCode: 400 - response-size: 65 - response-time: 20.546 ms
+[2022-07-31T13:48:54.357Z] info: POST /api/v1/task - statusCode: 200 - response-size: 198 - response-time: 30.018 ms
+[2022-07-31T13:49:52.519Z] error: An instance of TaskID has failed the validation:
+ - property id has failed the following constraints: isNotEmpty 
+
+[2022-07-31T13:49:52.520Z] info: POST /api/v1/task/id - statusCode: 400 - response-size: 63 - response-time: 5.092 ms
+[2022-07-31T13:50:08.602Z] info: POST /api/v1/task/id - statusCode: 500 - response-size: 322 - response-time: 65.373 ms
+[2022-07-31T13:52:52.025Z] info: MongoDb connected
+[2022-07-31T13:53:23.049Z] info: POST /api/v1/task/id - statusCode: 200 - response-size: 198 - response-time: 153.935 ms
+[2022-07-31T15:49:20.886Z] info: MongoDb connected
+[2022-07-31T15:53:11.015Z] info: OPTIONS /api/v1/auth/login - statusCode: 204 - response-size: 0 - response-time: 3.778 ms
+[2022-07-31T15:53:14.013Z] info: POST /api/v1/auth/login - statusCode: 200 - response-size: 394 - response-time: 2992.938 ms
+[2022-07-31T16:03:51.872Z] info: OPTIONS /api/v1/task - statusCode: 204 - response-size: 0 - response-time: 148.787 ms
+[2022-07-31T16:03:54.977Z] info: POST /api/v1/task - statusCode: 200 - response-size: 206 - response-time: 2857.054 ms
+[2022-07-31T16:26:23.040Z] info: OPTIONS /api/v1/task/id - statusCode: 204 - response-size: 0 - response-time: 0.745 ms
+[2022-07-31T16:26:24.594Z] info: OPTIONS /api/v1/task/id - statusCode: 204 - response-size: 0 - response-time: 27.432 ms
+[2022-07-31T16:26:24.669Z] info: POST /api/v1/task/id - statusCode: 200 - response-size: 206 - response-time: 1475.819 ms
+[2022-07-31T16:26:24.691Z] info: POST /api/v1/task/id - statusCode: 200 - response-size: 206 - response-time: 19.418 ms
