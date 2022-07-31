@@ -29,9 +29,6 @@ I
 jest.config.js,8\8\881d5d47bdc17ef8facebef59b68b5fc099a0293
 A
 webpack.config.js,d\5\d5595158cc48f9bf3e51b06f6e6805a8fd2d6262
-:
-
-src/app.ts,2\1\216381173f187cf4c2baf119193855699f4bc616
 H
 src/routes/user/index.ts,1\e\1e719452deb88b4efb41ac4ee4d920ef7a62a477
 C
@@ -73,10 +70,6 @@ S
 #.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
 \
 ,src/controllers/task/TaskController/index.ts,1\c\1c97f71e9943d6cbbb0cf478bcca35f799235267
-H
-src/routes/task/index.ts,d\4\d4cdcf6e3c3bf538b82cd3c6f5e165b2e8caacf2
-C
-src/routes/index.ts,8\6\86068f311586d8e3d751361f7678a15291bc6ec6
 J
 src/services/task/index.ts,4\f\4f0f0deddc60f8728585c6230c0b22e2ae88cdd7
 R
@@ -89,3 +82,10 @@ B
 src/types/index.ts,c\d\cd7a0a5ed00515f0d0cd32a8badd4ed5ef962af8
 H
 src/models/task/index.ts,e\e\ee947ad05424f235de77a95431c5efb12f7896ce
+:
+
+src/app.ts,2\1\216381173f187cf4c2baf119193855699f4bc616
+C
+src/routes/index.ts,8\6\86068f311586d8e3d751361f7678a15291bc6ec6
+H
+src/routes/task/index.ts,d\4\d4cdcf6e3c3bf538b82cd3c6f5e165b2e8caacf2
