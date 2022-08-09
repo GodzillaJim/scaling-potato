@@ -16,9 +16,18 @@ const corsOptions: CorsOptions = {
   methods: "GET,HEAD,OPTIONS,PUT,PATCH,POST,DELETE",
   preflightContinue: false,
 };
-
+/**
+ * Function provides CORS filtering
+ * @param {Request} request since it is a middleware
+ * @param {Function} callback to handle error in case of blacklisted domains
+ */
 export const corsOptionsWhiteList = (request: Request, callback: Function) => {
-  const whiteList = ["localhost:4200", "localhost:3000", "localhost:5000"];
+  const whiteList = [
+    "localhost:4200",
+    "localhost:3000",
+    "localhost:5000",
+    "collaborator-app-dev-dev.us-west-2.elasticbeanstalk.com",
+  ];
   const origin = request.header("origin")
     ? request.header("origin")
     : request.header("host");
@@ -30,7 +39,12 @@ export const corsOptionsWhiteList = (request: Request, callback: Function) => {
   corsOptions.origin = false;
   callback(new Error(`Origin not allowed by CORS: ${origin}`), corsOptions);
 };
-
+/**
+ * Function provides set up for morgan request logging
+ * @param tokens
+ * @param {Request} req
+ * @param {Response} res
+ */
 export const morganConfig = (tokens: any, req: Request, res: Response) => {
   const log = [
     tokens.method(req, res),

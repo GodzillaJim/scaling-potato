@@ -21,6 +21,8 @@ $ mfg-express-generator "project name (default is express-ts)"
 
 Start your @mianfrigo/express-typescript-generator server
 in development mode at `http://localhost:3000/`:
+or live at AWS domain:
+`http://collaborator-app-dev-dev.us-west-2.elasticbeanstalk.com/`
 
 ```bash
 $ cd "project name" && npm run dev
