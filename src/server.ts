@@ -5,6 +5,7 @@ import helmet from "helmet";
 import morgan from "morgan";
 import { corsOptionsWhiteList, morganConfig } from "./config/config";
 import router from "./routes";
+import socketServer from "./services/socket/server";
 
 dotenv.config();
 
@@ -22,4 +23,5 @@ app.use(middleware);
 
 app.use("/api/v1", router);
 
-export default app;
+const server = socketServer(app);
+export default server;

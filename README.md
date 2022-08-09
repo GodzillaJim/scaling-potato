@@ -13,13 +13,13 @@ good practice and a clean code.
 The quickest way to get started is use npx and pass in the name of the project you want to create.
 If you don't specify a project name, _express-ts_ will be set up for you as default name.
 
-Create the app:
+Create the server:
 
 ```bash
 $ mfg-express-generator "project name (default is express-ts)"
 ```
 
-Start your @mianfrigo/express-typescript-generator app
+Start your @mianfrigo/express-typescript-generator server
 in development mode at `http://localhost:3000/`:
 
 ```bash

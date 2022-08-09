@@ -24,8 +24,8 @@ export default class Account {
     newUser.password = hash;
     newUser.salt = salt;
     newUser.roles = await this.authService.getDefaultRoles();
-    if(account.avatar){
-      newUser.avatar = account.avatar
+    if (account.avatar) {
+      newUser.avatar = account.avatar;
     }
     await newUser.save();
     return { success: true, message: "Account created successfully!" };

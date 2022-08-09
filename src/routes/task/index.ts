@@ -1,5 +1,5 @@
 import express, { Router } from "express";
-import { mainLimiter } from "../../middleware/limiters";
+import mainLimiter from "../../middleware/limiters";
 import AuthChecker from "../../middleware/auth";
 import { Role } from "../../types";
 import TaskController from "../../controllers/task/TaskController";

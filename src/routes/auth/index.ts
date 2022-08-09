@@ -1,6 +1,6 @@
 import express, { Router } from "express";
 
-import { mainLimiter } from "../../middleware/limiters";
+import mainLimiter from "../../middleware/limiters";
 import AuthController from "../../controllers/auth";
 import validators from "../../tools/validators";
 import NewAccount from "../../types/dto/registration";
