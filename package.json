@@ -4,7 +4,8 @@
   "description": "My new project",
   "main": "webpack.config.js",
   "scripts": {
-    "start": "node ./dist/index.js",
+    "start": "npm run build && npm run app",
+    "app": "node ./dist/index.js",
     "build": "webpack --config ./webpack.config.js",
     "dev": "webpack --config ./webpack.dev.config.js",
     "nodemon": "npx nodemon ./src/index.ts",
