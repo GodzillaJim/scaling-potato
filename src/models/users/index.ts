@@ -33,7 +33,7 @@ const UserSchema = new Schema({
   emailVerificationCode: String,
   avatar: {
     type: String,
-    default: "https://thispersondoesnotexist.com",
+    default: "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/986.jpg",
   },
   salt: String,
   roles: {

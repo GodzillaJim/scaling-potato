@@ -22,8 +22,6 @@ router
   .route("/id")
   .post([
     mainLimiter,
-    AuthChecker.isAuthenticated,
-    AuthChecker.isAuthorized(Role.END_USER),
     validators.validateInput(TaskID),
     TaskController.getTaskById,
   ]);

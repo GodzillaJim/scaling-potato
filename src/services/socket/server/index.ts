@@ -13,8 +13,12 @@ const socketServer = (app: Application) => {
     const server = createServer(app);
     const io = new Server(server);
     io.on("connection", (socket) => {
+      socket.on("joinRoom", (data) => {
+        socket.join(data.room);
+      });
+
       socket.on("chatMessage", (data) => {
-        io.emit("chatMessage", data);
+        io.to(data.room).emit("chatMessage", data)
       });
     });
     return server;
