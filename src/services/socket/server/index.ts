@@ -12,9 +12,6 @@ const socketServer = (app: Application) => {
   try {
     const server = createServer(app);
     const io = new Server(server);
-    io.on("connect", () => {
-      logger.info("First Connection");
-    });
     io.on("connection", (socket) => {
       socket.on("chatMessage", (data) => {
         io.emit("chatMessage", data);

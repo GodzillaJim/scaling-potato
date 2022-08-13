@@ -4,12 +4,13 @@
   "description": "My new project",
   "main": "webpack.config.js",
   "scripts": {
-    "start": "npm run build && npm run app",
+    "start": "npm run tsc",
     "app": "node ./dist/index.js",
     "build": "webpack --config ./webpack.config.js",
     "dev": "webpack --config ./webpack.dev.config.js",
     "nodemon": "npx nodemon ./src/index.ts",
-    "test": "tsc --module commonjs && jest"
+    "test": "tsc --module commonjs && jest",
+    "tsc": "ts-node ./src/index.ts"
   },
   "keywords": [],
   "author": "",
