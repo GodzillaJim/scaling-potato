@@ -7,7 +7,6 @@ const logger = createLogger({
     format.timestamp(),
     format.printf((info: any) => {
       // eslint-disable-next-line no-console
-      console.log(info);
       return `[${info.timestamp}] ${info.level}: ${info.message}`;
     })
   ),
