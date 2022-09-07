@@ -1,69 +1,104 @@
 import { Application } from "express";
-import { Server, Socket } from "socket.io";
+import { Socket } from "socket.io";
 import { createServer } from "http";
 import logger from "../../../config/logger.config";
-import { DefaultEventsMap } from "socket.io/dist/typed-events";
+import userHandlers from "./services/User";
+import Task from "../../../models/task";
 
+const SocketIO = require("socket.io");
 /**
  * Create socket server from Express app
  * @param {Application} app The express application
  * @returns {Application | Server} The final app server to start listening
  */
-const documents: Record<any, any> = {};
-const defaultCodeText = "console.log('hello from server!');";
+const { removeUser, usersInRoom, addUser } = userHandlers;
+interface IUser {
+  username: string;
+  socketID: string;
+}
+
+interface IRoom {
+  users: IUser[];
+  data: any;
+}
+
+const roomList: Record<any, IRoom> = {};
+
 const socketServer = (app: Application) => {
   try {
     const server = createServer(app);
-    const io = new Server(server);
+    const io = SocketIO(server);
 
-    io.on(
-      "connection",
-      (
-        socket: Socket<
-          DefaultEventsMap,
-          DefaultEventsMap,
-          DefaultEventsMap,
-          any
-        >
-      ) => {
-        socket.on("joinRoom", (data) => {
-          socket.join(data.room);
+    io.on("connection", (socket: Socket) => {
+      /*------------------Chat Messages-------------*/
+
+      socket.on("joinRoom", ({ room }) => {
+        socket.join(room);
+      });
+
+      socket.on("chatMessage", ({ message, sender, avatar, date, room }) => {
+        io.to(room).emit("newMessage", { message, sender, avatar, date, room });
+      });
+
+      /*--------------------Chat Messages end----------*/
+
+      socket.on("join", async ({ name, room }: any) => {
+        const task = await Task.findById(room);
+
+        if (!roomList[room]) {
+          roomList[room] = { users: [], data: task.code };
+        }
+
+        const user = addUser({ id: socket.id, name, room });
+
+        socket.join(room);
+        socket.broadcast.to(room).emit("notification", {
+          text: `${user.name} has joined!`,
+          type: "connect",
         });
 
-        socket.on("doc", (data) => {
-          io.to(data.room).emit("doc", data);
-          console.log(data);
+        io.to(room).emit("roomData", {
+          room,
+          users: usersInRoom(user.room),
+          data: roomList[room].data,
         });
+      });
+      socket.on("sendText", ({ data, room, name }) => {
+        if (roomList[room]) {
+          roomList[room].data = data;
+        } else {
+          roomList[room] = { users: [], data };
+        }
+        Task.updateOne({ id: room }, { code: data });
+        socket.broadcast.to(room).emit("text", { data, name });
+      });
 
-        socket.on("chatMessage", (data) => {
-          io.to(data.room).emit("chatMessage", data);
-        });
+      socket.on("sendModeValue", ({ mode, room }) => {
+        socket.broadcast.to(room).emit("changeMode", mode);
+      });
 
-        socket.on("joinEditorRoom", ({ room, clientID }) => {
-          if (!documents[room]) {
-            documents[room] = defaultCodeText;
+      socket.on("sendThemeValue", ({ theme, room }) => {
+        socket.broadcast.to(room).emit("changeTheme", theme);
+      });
+
+      socket.on("disconnect", () => {
+        const user = removeUser(socket.id);
+        if (user) {
+          if (usersInRoom(user.room).length <= 1) {
+            Task.updateOne({ id: user.room });
           }
-          socket.join(room);
-          socket.emit("joined", { code: documents[room], socketID: socket.id });
-          io.to(room).emit("newClient", { clientID });
-        });
 
-        socket.on("clientWrite", ({ clientID, code, room, changes }) => {
-          if (code !== documents[room]) {
-            io.to(room).emit("updates", {
-              clientID,
-              code,
-              room,
-              changes,
-            });
-            documents[room] = code;
-          }
-        });
-      }
-    );
+          io.to(user.room).emit("notification", {
+            text: `${user.name} has left`,
+            type: "disconnect",
+          });
+        }
+      });
+    });
     return server;
   } catch (e) {
     logger.error(e);
+    console.log(e);
     return app;
   }
 };

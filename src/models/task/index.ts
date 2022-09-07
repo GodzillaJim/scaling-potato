@@ -1,5 +1,8 @@
 import { model, Schema } from "mongoose";
 
+const str = `function(){
+  //Write code here
+}`;
 const TaskSchema = new Schema(
   {
     name: {
@@ -7,6 +10,7 @@ const TaskSchema = new Schema(
       required: true,
     },
     owner: { type: String, required: true },
+    code: { type: String, required: false, default: str },
   },
   { timestamps: true }
 );
