@@ -25,6 +25,9 @@ app.use("/api/v1", router);
 app.get("/health", (_req: Request, res: Response) => {
   res.json({ health: "OK" });
 });
+app.get("/", (_req: Request, res: Response) => {
+  res.json({ health: "OK" });
+});
 
 const server = socketServer(app);
 export default server;
