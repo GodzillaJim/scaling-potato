@@ -18,7 +18,7 @@ export default class MongoDb {
         logger.info("MongoDb connected");
       })
       .catch((error) => {
-        logger.error(error);
+        console.log("Failed Database connection", error);
       });
   }
 }
