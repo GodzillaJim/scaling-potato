@@ -14,9 +14,13 @@ phases:
       - echo Build started on `date`
       - echo Compiling the Node.js code
       - npm run build
+      - npm prune --production
   post_build:
     commands:
       - echo Build completed on `date`
 artifacts:
   files:
-    - '**/*'
+    - dist/**/*
+    - package.json
+    - package-lock.json
+    - node_modules/**/*
