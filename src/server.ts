@@ -1,6 +1,6 @@
 import cors from "cors";
 import dotenv from "dotenv";
-import express from "express";
+import express, { Request, Response } from "express";
 import helmet from "helmet";
 import morgan from "morgan";
 import { morganConfig } from "./config/config";
@@ -22,6 +22,9 @@ const middleware = [
 app.use(middleware);
 
 app.use("/api/v1", router);
+app.get("/health", (_req: Request, res: Response) => {
+  res.json({ health: "OK" });
+});
 
 const server = socketServer(app);
 export default server;
