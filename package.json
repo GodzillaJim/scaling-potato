@@ -4,7 +4,7 @@
   "description": "My new project",
   "main": "webpack.config.js",
   "scripts": {
-    "start": "npm run tsc",
+    "start": "node dist/server.js",
     "app": "node ./dist/index.js",
     "build": "webpack --config ./webpack.config.js",
     "dev": "webpack --config ./webpack.dev.config.js",
