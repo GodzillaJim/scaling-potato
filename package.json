@@ -45,7 +45,6 @@
     "mongoose-unique-validator": "^3.1.0",
     "morgan": "^1.10.0",
     "nodemailer": "^6.7.7",
-    "ot": "github:Operational-Transformation/ot.js",
     "ot-json1": "^1.0.2",
     "ot-text": "^1.0.2",
     "rollup": "^2.78.0",

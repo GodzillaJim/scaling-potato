@@ -14,7 +14,7 @@ const app = express();
 
 const middleware = [
   morgan(morganConfig),
-  helmet(),
+  helmet({ contentSecurityPolicy: false }),
   cors(),
   express.json(),
   express.urlencoded({ extended: false }),
