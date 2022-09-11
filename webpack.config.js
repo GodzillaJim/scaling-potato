@@ -16,7 +16,10 @@ module.exports = {
       {
         test: /\.ts$/,
         use: ["ts-loader"],
-        exclude: /node_modules/,
+        exclude: [
+          path.resolve(__dirname, "node_modules"),
+          path.resolve(__dirname, "collaborate-ui"),
+        ],
       },
     ],
   },
