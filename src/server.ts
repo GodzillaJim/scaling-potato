@@ -22,7 +22,7 @@ const middleware = [
 
 app.use(middleware);
 
-app.use(express.static(path.resolve(__dirname, "build")));
+app.use(express.static(path.resolve(__dirname, "../build")));
 
 app.use("/api/v1", router);
 app.get("/health", (_req: Request, res: Response) => {
