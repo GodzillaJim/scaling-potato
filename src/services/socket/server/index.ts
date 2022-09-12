@@ -36,8 +36,8 @@ const socketServer = (app: Application) => {
         socket.join(room);
       });
 
-      socket.on("chatMessage", ({ message, sender, avatar, date, room }) => {
-        io.to(room).emit("newMessage", { message, sender, avatar, date, room });
+      socket.on("chatMessage", (data) => {
+        io.to(data.room).emit("newMessage", data);
       });
 
       /*--------------------Chat Messages end----------*/
