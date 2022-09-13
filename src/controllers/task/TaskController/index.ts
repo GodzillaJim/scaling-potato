@@ -29,6 +29,16 @@ export default class ClassController {
     }
   }
 
+  public static async deleteTask(req: Request, res: Response){
+    try{
+      const taskId = req.params.id;
+      const deletedTask = await TaskService.deleteTask(taskId);
+      res.json({ status: 200, data: deletedTask })
+    }catch (e){
+      res.status(404).json(createErrorResponse(e, 404))
+    }
+  }
+
   public static async getTaskById(req: Request, res: Response) {
     try {
       const id = req.body as unknown as TaskID;

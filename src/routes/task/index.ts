@@ -24,7 +24,9 @@ router
     mainLimiter,
     validators.validateInput(TaskID),
     TaskController.getTaskById,
-  ]);
+  ])
+router.route("/:id")
+  .delete([mainLimiter, AuthChecker.isAuthenticated, TaskController.deleteTask])
 router.route("/user").get([mainLimiter
 , AuthChecker.isAuthenticated, TaskController.getUserTasks])
 
