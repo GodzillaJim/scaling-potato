@@ -25,5 +25,7 @@ router
     validators.validateInput(TaskID),
     TaskController.getTaskById,
   ]);
+router.route("/user").get([mainLimiter
+, AuthChecker.isAuthenticated, TaskController.getUserTasks])
 
 export default router;

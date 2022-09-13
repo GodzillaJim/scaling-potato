@@ -19,6 +19,16 @@ export default class ClassController {
     }
   }
 
+  public static async getUserTasks (req: Request, res: Response){
+    try{
+      const userEmail = res.locals.user.email;
+      const tasks = await TaskService.getUserTasks(userEmail);
+      res.json({ status: 200, data: tasks })
+    }catch (e) {
+      return res.status(500).json(createErrorResponse(e));
+    }
+  }
+
   public static async getTaskById(req: Request, res: Response) {
     try {
       const id = req.body as unknown as TaskID;

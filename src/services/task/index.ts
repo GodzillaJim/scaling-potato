@@ -14,4 +14,13 @@ export default class TaskService {
   public static async getTaskById(taskId: TaskID) {
     return await Task.findById(taskId.id);
   }
+
+  /* Get tasks per user
+  * */
+  public static async getUserTasks(userEmail: string) {
+    if(!userEmail || userEmail === ""){
+      throw new Error("Please login to continue");
+    }
+    return await Task.find({ owner: userEmail })
+  }
 }
