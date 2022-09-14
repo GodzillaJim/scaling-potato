@@ -69,7 +69,14 @@ const socketServer = (app: Application) => {
         } else {
           roomList[room] = { users: [], data };
         }
-        Task.updateOne({ id: room }, { code: data });
+        Task.findByIdAndUpdate(room, { code: data }, function (err, doc) {
+          if (err) {
+            console.log(err);
+            logger.error(err.message);
+          } else {
+            logger.info(`Doc updated: ${doc.id}`);
+          }
+        });
         socket.broadcast.to(room).emit("text", { data, name });
       });
 
